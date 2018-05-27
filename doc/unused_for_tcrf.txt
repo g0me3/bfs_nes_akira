@@ -1,0 +1,165 @@
+_sc2_msg11:
+		.BYTE	_ka__ne__da,_ta,_ti,_ha,___,_A_,_st,_MI,_st,_ni,___,_tu,_ka,_ma,_tt,_te,_si,_ma,_i_,_cl,_ret
+		.BYTE	_si,_oo,_u_,_ne,_n_,_i_,_n_,_o_,_ku,_ri,_ni,___,_na,_ri,_ma,_si,_ta,_cr,_eol
+_sc2_msg11:
+		.BYTE	_The,__,_Army,__,_c,_a,_p,_t,_u,_r,_ed,__,_Kaneda,__,_and,_ret
+		.BYTE	_his,__,_f,_r,_i,_en,_d,_s,_dot,_ret
+		.BYTE	_ret
+		.BYTE	_The,_y,__,_were_,_s,_en,_t_,_to_,_a,__,_re,_for,_m,_ret
+		.BYTE	_s,_c,_h,_oo,_l,_dot,_eol
+
+_sc2_msg18:
+		.BYTE	___,_ga,_ku,_se,_i_,_lt,_a0,_zi,_yu,_u_,_ka,_ku,_me,_i_,_st,_II,_ex,___,_BA,_N_,_ZA,_I_,_ex,_ex,_ao,_ret
+		.BYTE	_YA,_cl,___,_YA,_BA,_I_,_ze,___,_ko,_ri,_yy,_st,_cr,_eol
+_sc2_msg18:
+		.BYTE	_S,_t,_u,_d,_en,_t,_ddt_,_an0,_L,_on,_g,__,_l,_i,_ve,__the,_ret
+		.BYTE	_F,_re,_ed,_o,_m,__,_R,_e,_v,_o,_l,_u,_t,_i,_on,_exc,__,_B,_an,_z,_a,_i,_exc,_aof,_ret
+		.BYTE	_ret
+		.BYTE	_T,_h,_i,_dot_dot_dot,_T,_his,__i,_s_,_b,_ad,_exc,_eol
+
+_sc2_msg29:
+		.BYTE	_______,_ka__ne__da,_lt,_he,_he,_tt,___,_SU,_I_,_MA,_se,_st,_n_,_ex,_eol
+_sc2_msg29:
+		.BYTE	_Kaneda,_ddt_,_H,_e,_he,_col,__s,_or,_r,_y,_exc,_eol
+
+_sc5_msg02:
+		.BYTE	___,_MA,_SU,_TA,_st,_lt,_a0,_KO,_RA,_TT,_ex,___,_ma,_cl,_ma,_te,_tt,_cr,_ao,_ret
+		.BYTE	_______,_ka__ne__da,_lt,_ma,_te,_ne,$89,_yo,_st,_cr,_eol
+_sc5_msg02:
+		.BYTE	_O,_w,_n,_er,_ddt_,_an0,_H,_e,_y,_exc,__,_W,_a,_it,_exc,_aof,_ret
+		.BYTE	_ret
+		.BYTE	_Kaneda,_ddt_,_N,_o,__w,_a,_y,_exc,_eol
+
+_sc5_msg07:
+		.BYTE	_______,_o_,_to,_ko,_lt,_a0,_te_tsu__o_,_qe,___,_si,_ra,_ne,$89,_na,_st,_cr,_ao,_eol
+_sc5_msg07:
+		.BYTE	_Man,_ddt_,_an0,_Tetsuo,_que,__,_N,_o,__i,_d,_e,_a,_dot,_aof,_eol
+
+_sc5_msg16:
+		.BYTE	_______,_o_,_to,_ko,_lt,_a0,_te,_me,_e_,_cl,___,_sa,_ke,_ku,_sa,_i_,___,_i_,_ki,_si,_ya,_ga,_tt,_te,_cl,_ret
+		.BYTE	_______________________,_na,_ma,_i_,_ki,_na,_n_,_da,_yo,_st,_ex,_ao,_ret
+		.BYTE	_o_,_to,_ko,_ga,___,_hu,_i_,_ni,___,_O_,_RE,_no,_ga,_n_,_me,_n_,_wo,___,_na,_gu,_tt,_te,_ki,_ta,_cr,_ret
+		.BYTE	_KE,_N_,_KA,_ni,___,_na,_tt,_ta,_cr,_eol
+_sc5_msg16:
+		.BYTE	_Man,_ddt_,_an0,_Y,_ou,__w,_a,_l,_t,_z,__i,_n,__,_her,_e,_ret
+		.BYTE	_re,_e,_k,_ing,__of,__a,_l,_c,_o,_h,_o,_l,__,_with,__a,_ret
+		.BYTE	_p,_o,_m,_p,_ou,_s,__a,_t,_t,_it,_u,_d,_e,_dot_dot_dot,__,_S,_h,_ow,__s,_o,_me,_ret
+		.BYTE	_re,_s,_p,_e,_c,_t,_exc,_aof,_ret
+		.BYTE	_ret
+		.BYTE	_The,__,_m,_an,__s,_u,_d,_d,_en,_l,_y,__,_st,_r,_u,_c,_k,__,_m,_y,_ret
+		.BYTE	_f,_a,_c,_e,_dot,__,_I,_t,__t,_u,_r,_n,_ed,__i,_n,_to_,_a,__,_b,_r,_a,_w,_l,_dot,_eol
+
+_sc5_msg17:
+		.BYTE	___________________,_lt,_U_,_U_,_st,_TT,___,_U_,_U_,_st,_TT,_ret
+		.BYTE	___________,_ka,_i_,_lt,_ka__ne__da,_AA,___,_PO,_RI,_da,_ze,_ex,_ret
+		.BYTE	_______,_ka__ne__da,_lt,_ni,_ge,_ro,_st,_ex,_ex,_ret
+		.BYTE	_ret
+		.BYTE	_dt,_dt,_dt,_ke,_do,___,_O_,_RE,_ta,_ti,_ha,___,_PO,_RI,_ni,___,_tu,_ka,_ma,_tt,_te,_si,_ma,_tt,_ta,_cr,_eol
+_sc5_msg17:
+		.BYTE	_Kai,_ddt_,_Kaneda,_exc,__,_It_apo_s,__the,__,_c,_o,_p,_s,_exc,_ret
+		.BYTE	_ret
+		.BYTE	_Kaneda,_ddt_,_R,_u,_n,__,_for,__,_it,_exc,_ret
+		.BYTE	_ret
+		.BYTE	_But,__w,_e_,_were_,_c,_a,_u,_g,_h,_t_,_b,_y,__the,_ret
+		.BYTE	_p,_o,_l,_i,_c,_e,_dot,_eol
+
+_sc5_msg18:
+		.BYTE	_ka__ne__da,_si,_oo,_u_,_ne,_n_,_ha,___,_si,_oo,_u_,_ne,_n_,_i_,_n_,_o_,_ku,_ri,_ni,_ret
+		.BYTE	_na,_ri,_ma,_si,_ta,_cr,_eol
+_sc5_msg18:
+		.BYTE	_Kaneda,__,_was,__s,_en,_t_,_to_,_a,__,_re,_for,_m,_ret
+		.BYTE	_s,_c,_h,_oo,_l,_dot,_eol
+
+_sc8_msg02:
+		.BYTE	_______,_ka__ne__da,_lt,_ya,_ba,_i_,_tt,_cl,___,_ki,_du,_ka,_re,_te,_si,_ma,_tt,_ta,_ex,_eol
+_sc8_msg02:
+		.BYTE	_Kaneda,_ddt_,_S,_h,_it,_col,__the,_y,__,_n,_o,_t,_i,_c,_ed,__,_me,_exc,_eol
+
+_sc9_msg00:
+		.BYTE	_ka,_no,_zi,_oo,_ni,___,_tu,_i_,_te,_tt,_te,_col,___,_BO,_RO,_TT,_ti,_i_,_BI,_RU,_no,_ret
+		.BYTE	_ti,_ka,_si,_tu,_ma,_de,___,_ki,_ti,_ma,_tt,_ta,_cr,_eol
+_sc9_msg00:
+		.BYTE	_I_,_f,_o,_ll,_ow,_ed,__,_her,_col,__,_and,__w,_e_,_en,_d,_ed,_ret
+		.BYTE	_u,_p,__i,_n,__the,__,_b,_a,_se,_me,_n,_t_,_of,__a,_n,__,_o,_l,_d,_ret
+		.BYTE	_building,_dot,_eol
+
+_scA_msg16:
+		.BYTE	_te,_n_,_zi,_oo,_u_,_ka,_ra,___,_si,_zu,_ku,_ga,___,_o_,_ti,_te,_ku,_ru,_cr,_eol
+_scA_msg16:
+		.BYTE	_W,_at,_er,_apo_s,__,_d,_r,_i,_p,_p,_ing,__,_f,_ro,_m,_ret
+		.BYTE	_t,_he,__,_c,_e,_i,_l,_ing,_dot,_eol
+
+_scB_msg04:
+		.BYTE	___________,_KE,_I_,_lt,_an2,_ta,_su,_ke,_te,_mo,_ra,_tt,_ta,_no,_yo,_ex,_aof,_ret
+		.BYTE	_______,_ka__ne__da,_lt,_2,_ka,_i_,_mo,_ne,_str,_tt,_cr,_ret
+		.BYTE	_______,_RI,_UU,_U_,_lt,_an1,_wa,_re,_wa,_re,_ni,___,_ti,_ka,_du,_ku,_ta,_me,___,_ka,_mo,_si,_re,_n_,_cr,_aof,_eol
+_scB_msg04:
+		.BYTE	_Kei,_ddt_,_an2,_H,_e_,_s,_a,_v,_ed,__,_m,_y,__,_l,_i,_f,_e,_exc,_aof,_ret
+		.BYTE	_ret
+		.BYTE	_Kaneda,_ddt_,_T,_w,_i,_c,_e,_exc,_ret
+		.BYTE	_ret
+		.BYTE	_Ryu,_ddt_,_an1,_T,_hat,__,_c,_ou,_l,_d,_apo,_ve,__,_be,_en,__,_j,_u,_st,_ret
+		.BYTE	_to_,_s,_p,_y,__,_on,__,_u,_s,_dot,_aof,_eol
+
+_scB_msg16:
+		.BYTE	_0,_A,_1,_6,_eol
+
+_scD_msg0B:
+		.BYTE	_______,_ka__ne__da,_lt,_do,_tt,_ti,_ni,_i_,_ke,_ba,___,_i_,_i_,_n_,_da,_col,___,_i_,_tt,_ta,_i_,_ex,_ret
+		.BYTE	___________,_KE,_I_,_lt,_ma,_tt,_su,_gu,_yo,_dot,_dot,_dot,_ret
+		.BYTE	_______________________,_ko,_no,_ma,_ma,___,_ma,_tt,_su,_gu,_ni,_dot,_dot,_dot,_ret
+		.BYTE	_______,_ka__ne__da,_lt,_e_,_tt,_dot,_dot,_dot,_eol
+_scD_msg0B:
+		.BYTE	_Kaneda,_ddt_,_W,_her,_e,__the,__,_he,_ll,__,_d,_o,__w,_e,_ret
+		.BYTE	_g,_o,__,_f,_ro,_m,__,_her,_e,_que,_ret
+		.BYTE	_ret
+		.BYTE	_Kei,_ddt_,_S,_t,_r,_a,_ight,__a,_he,_ad,_dot_dot_dot,__,_or,_dot_dot_dot,_ret
+		.BYTE	_T,_hat,__w,_a,_y,_dot_dot_dot,_ret
+		.BYTE	_ret
+		.BYTE	_Kaneda,_ddt_,_E,_r,_dot_dot_dot,_eol
+
+_scE_msg01:
+		.BYTE	_0,_D,_0,_1,_eol
+		
+
+_sc12_msg2A:
+		.BYTE	_yu,_u_,_ya,_ke,_no,_so,_ra,_ni,___,_na,_ga,_re,_bo,_si,_ga,___,_ki,_ra,_me,_i_,_te,_i_,_ta,_cr,_ret
+		.BYTE	___,_A_,_str,_MI,_str,_lt,_S,_O,_L,_da,_so,_u_,_de,_su,_dot,_dot,_dot,_eol
+_sc12_msg2A:
+		.BYTE	_N,_e,_ar,__the,__,_se,_t,_t,_ing,__s,_u,_n,_col,__a,_ret
+		.BYTE	_g,_l,_i,_st,_en,_ing,__,_st,_ar,__,_c,_ou,_l,_d_,_be,__,_se,_en,_dot,_ret
+		.BYTE	_ret
+		.BYTE	_Army,_ddt_,_The,__,_S,_O,_L,__s,_at,_e,_ll,_it,_e,_dot_dot_dot,_eol
+
+_sc12_msg2B:
+		.BYTE	_______,_ta,_i_,_sa,_lt,_an0,_a_,_no,_te_tsu__o_,_ga,___,_S,_O,_L,_wo,_dot,_dot,_dot,_ret
+		.BYTE	_______________________,_ko,_ko,_ma,_de,___,_PA,_WA,_str,_wo,___,_mi,_ni,_tu,_ke,_ta,_to,_ret
+		.BYTE	_______________________,_i_,_u_,_no,_ka,_AA,_dot,_dot,_dot,_aof,_eol
+_sc12_msg2B:
+		.BYTE	_Colonel,_ddt_,_an0,_Tetsuo,__,_d,_e,_st,_ro,_y,_ed,__the,_ret
+		.BYTE	_S,_O,_L,__s,_at,_e,_ll,_it,_e,_dot_dot_dot,__,_H,_e,_apo_s,__t,_hat,_ret
+		.BYTE	_p,_ow,_er,_f,_u,_l,__a,_l,_re,_ad,_y,_que,_aof,_eol
+
+_sc12_msg2C:
+		.BYTE	___________,_KE,_I_,_lt,_a_,_na,_ta,_no,_yo,_u_,_ni,___,_ti,_ka,_ra,_wo,___,_tu,_ka,_tt,_te,_ha,_ret
+		.BYTE	_______________________,_i_,_ke,_na,_i_,_wa,_cr,_eol
+_sc12_msg2C:
+		.BYTE	_Kei,_ddt_,_The,__,_k,_in,_d_,_of,__,_p,_ow,_er,__,_you,_ret
+		.BYTE	_ha,_ve,__,_m,_u,_st,_n,_apo,_t_,_be,__,_u,_s,_ed,_exc,_eol
+
+_sc12_msg2D:
+		.BYTE	_______,_te_tsu__o_,_lt,_na,_ni,_II,_qe,_eol
+_sc12_msg2D:
+		.BYTE	_Tetsuo,_ddt_,_W,_hat,_que,_eol
+
+_sc12_msg2E:
+		.BYTE	_______,_te_tsu__o_,_lt,_GA,_KI,_do,_mo,_dot,_dot,_dot,___,_GA,_KI,_do,_mo,_da,_na,_dot,_dot,_dot,_eol
+_sc12_msg2E:
+		.BYTE	_Tetsuo,_ddt_,_Damn,__,_k,_id,_s,_dot_dot_dot,__,_you,_apo,_re,_ret
+		.BYTE	_a,_ll,__,_j,_u,_st,__,_k,_id,_s,_dot_dot_dot,_eol
+
+_sc15_msg0A:
+		.BYTE	_O_,_RE,_ha,___,_te_tsu__o_,_no,_mi,_gi,_u_,_de,_no,_yo,_ko,_he,___,_ka,_ga,_mi,_wo,___,_na,_ge,_ta,_cr,_eol
+_sc15_msg0A:
+		.BYTE	_I_,_t,_h,_re,_w,__the,__,_m,_i,_r,_ro,_r,__,_n,_e,_ar,_ret
+		.BYTE	_Tetsuo,_apo_s,__,_r,_ight,__a,_r,_m,_dot,_eol

@@ -1,0 +1,44 @@
+WHATS NEW
+
+	CODE CHANGES (you won't see it during gameplay mostly)
+	
+- as usual, movable disasm (there is an issue with current macroses, so you couldn't just move the script blocks around as you wish, but you may try to find some positions, where they do assemble for sure), all trash removed (a LOT of unused lib calls, data copy, etc.), removed all unused code, all redundant code refactored, reduced call tables sizes, reduced a number of non-zero page vars, reducing size of code as well a lot, most of far calls are automatically decide if they far or near (for those who is using it).
+- total macrofication of the code, a lot of things are easier to see and code now.
+- most of direct data arguments converted to stack-passing arguments, reduced size of code much than 1.5 times.
+- text output system also macroficated, readable and easy editable and completely movable to any place now, english (dank trans) and russian (scarabay) scripts added, selectable by macro constant (english script additionally optimized with additional dictionary entries to fit into 32K of data, but since we have 16K banks of the free space, I did it just for fun, russian script uses one of spare banks).
+- texts are reorganized, moved a lot of messages from block 17 to its own blocks. only messages used from more than one place are left there.
+- also reoptimized menu library for english script.
+- palette data size reduced.
+- game interactive state machine indexified, all direct indexes converted to labeled mnemonics, fully movable and replaceable. all index recalc now done automatic.
+
+	GAME CHANGES (fixed bugs or changed game behaviour)
+
+- sound test added at the title screen (use controller 2)
+- scrollable screens some kind of fixed now, at least looks better.
+- fixed mouth animation code for password screen, missing in the english translation.
+- password system fixed to straight behaviour not depending on the place you died before, but you still can have a pass for any point of the game using the secret cheat from controller 2.
+- fixed wrong scrolls, attributes damage, sprites disappearance in demo sequence, however there are some issues still left.
+- swapped mouth animation phases for most of scenes. most of the time the game has a swapped mouth animation phases, so all chars are staying with the open mouths by default. in some places this has point, but seems the original developers has no much time to fix it separately for every scene.
+- restored missing tile on kai's jacket in intro scene.
+- added unused terrorists dialog in scene 2, also fixed some sprite glitch there. in english script fixed line missing due to wrong translation of unused terrorists dialog lol.
+- fixed girl animation sprite in scene 3, wrongly positioned and inserted into the previous sprite.
+- readded yamagata's lower body part tiles in scene 4 (school), so now yamagata is taller then others, as it whould be.
+- restored kai mouth animation in scene 4 as well.
+- restored game over possibility in scene 5 after drink.
+- scene 5 now has more detailed quest with pills, the previous one were much too easy due to bug. added one more unused dialog with barman.
+- restored clown beating animation in scene 6, broken in the original version.
+- readded eyes and mouths animations for kaneda and tetsuo in scene 6 as well.
+- also, readded unused sprites overlay for scene 6 with small figures of kaneda and tetsuo in scene 6.
+- fixed sprite glitches and added more animations to scene 7.
+- fixed menu return bug in scene 8.
+- fixed garbage sprite for water splash in scene 8.
+- readded and worked eyes and mouth animation in last episode of scene 8.
+- fixed music bug in scene 8 as well.
+- restored missing tiles line in Ryu body of the scene 9.
+- shooting games now has a scalable projectiles as it should be.
+- restored face animations and kaneda head turning in scene F.
+- readded a lot of unused face animations for scene 11.
+- fixed scene 12 laser quest logic, now you can leave without take a laser not using a BUG in menu system lol. laser now removable from truck, also garbage sprite is removed too.
+- readded some animation to tetsuo/kei on the fridge sphere, but this is not much accurate, they have a lot of CHR data for this scene, but nothing to add and animate were done.
+- tetsuo fighting mini-games animated and added a different graphics for various game states.
+- readded missing percussion channel for password screen music.

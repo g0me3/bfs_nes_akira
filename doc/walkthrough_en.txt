@@ -1,0 +1,459 @@
+
+Most of branches during the game does not affect the ending. You can get the best
+ending in two ways, one shorter, one longer. Shorter way to get the best ending is
+to shot tetsuo in the right arm when you first met in the battle. Miss or hit the
+body/barrier 5 times and you'll get to the large branch with more quests. When done
+right, it ended with the same best ending. To get one more ending you can shot the
+Akira's samples to the right in first battle with Tetsuo. Also, you can get the
+worst ending if in any battle with Tetsuo shoot him into the chest. This will lead
+to an immediate death of Tetsuo and an instant game over.
+
+The rest of the endings are depends on two menus in the final part of the game. There
+are 4 options: look->jump, look->run, look->hit and attack.
+
+There are three more branches during the game, two of them can't be passed in wrong
+way, or else you get the game over (interrogation without girl will restart from the
+beginning, also the first meeting with tetsuo in the battle without laser also ended
+with restart). The third one can be passed either one way or another and does not
+affect the story (either tell the thruth or lie/tease to the terrorist about Kei), both
+can be played the same way and both will tell you the whole story in a different places.
+
+The rest of the game is straight as fuck, with exception of possibility to get to the
+prison or death and so get the game over in many different ways.
+
+legend for walkthrough:
+
+- the numbered positions should be performed in the corresponding order
+- no-numbered positions can be done with no particular order
+- split numbers like 1.1 means there are more options to perform on this stage, can
+  be done separately with no jump to the next line
+- split numbers like 1.x means deadly options, lead to the game overs
+- the rest of the options does not affect the scenario or game logic, just tells
+  you more story, so these options does not described here at all, if you like it
+  feel free to try any not mentioned here options, there won't be dangerous
+- OPTION means you can choose between two paths there, which may lead to the different
+  scripts
+- BRANCH usually the destination of the various OPTION paths from different scenes,
+  there may be the whole different scene paths, or just a little different in some
+  places.
+- multiplier x N means you should use this option as much times as mentioned
+- original vs. modified versions of the script describes the original game behaviour
+  vs the changed in this recompiled version for convinience.
+
+-----------------------------------------------
+ SCENE 0 (INTRO)
+-----------------------------------------------
+
+ no interactive events
+
+-----------------------------------------------
+ SCENE 1 (INTERROGATION)
+-----------------------------------------------
+
+ original interactive script:
+ 1. talk x 2 (laugh menu added)
+ OPTION A {
+ 	1. laugh (jump SCENE 2, BRANCH A)
+ }
+ OPTION B {
+ 	1. look->gang (cursor enabled)
+ 		- point yamagata x 2
+ 		- point kai x 2
+ 		- point kaneda x 2
+ 	2. press B or wait 16 seconds (laugh replace with peek)
+ 	3. peek->list x 2 (inquire added)
+ 	4. inquire x 3 (jump SCENE 2, BRANCH B)
+ }
+
+-----------------------------------------------
+ SCENE 2 (WAITING ROOM)
+-----------------------------------------------
+
+ original interactive script:
+ 1. check->peek (cursor enabled)
+ 	- point girl in orange x 2 (ask out added)
+ 2. ask out
+ BRANCH A {
+ 	1. any option
+ 	2.x any option (game over, restart SCENE 1)
+ }
+ BRANCH B {
+ 	1. yell
+ 	2. take cover
+ 	3. army (talk appears)
+ 	4. talk (jump SCENE 3)
+ }
+
+-----------------------------------------------
+ SCENE 3 (OUTSIDE OF DOME)
+-----------------------------------------------
+
+ no interactive events
+
+-----------------------------------------------
+ SCENE 4 (TETSUO CHASE)
+-----------------------------------------------
+
+ no interactive events
+
+-----------------------------------------------
+ SCENE 5
+-----------------------------------------------
+
+ original interactive script:
+ 1. peek (inquire added)
+ 2. inquire (got [sector N], move added)
+ 3. move->[sector N] (if [sector 4] then jump 6.)
+ 4. inquire (got next [sector N])
+ 5. move->[sector N] (jump 4. until [sector 4])
+ 6. show x 2
+ 7. inquire (jump SCENE 6)
+
+ modified interactive script:
+ OPTION A {
+ 	1. tease (tease replaced with inquire)
+ 	2. inquire (got [sector N], move added)
+ 	3. move->[sector N] (if [sector 4] then jump 6.)
+ 	4. inquire (got [sector N])
+ 	5. move->[sector N] (jump 4. until [sector 4], else jump 6.)
+ 	6. yell
+ 	7. move->hangout
+ 	8. peek
+ 	9. move->[sector 4]
+ 	10. show
+ 	11. inquire (jump SCENE 6)
+ }
+ OPTION B {
+ 	1. tease (tease replaced with inquire)
+ 	2. drink
+ 	3. inquire
+ 	3. move->[sectors 1-3]
+ 	4.x yell or show (game over, restart SCENE 5)
+ }
+
+-----------------------------------------------
+ SCENE 6
+-----------------------------------------------
+
+ original interactive script:
+ 1. crouch
+ 1.x any other (game over, restart SCENE 6)
+ 2. run
+ 2.x any other (game over, restart SCENE 6)
+ 3. look->car
+ 4. look->crc (run to added)
+ 5. run to
+ 6. look->car
+ 7. look->tetsuo
+ 8. inquire x 2 (run to added)
+ 9. run to
+ 10. look x 2
+ OPTION A {
+ 	1. yell (message, jump SCENE 7)
+ }
+ OPTION B {
+ 	2. hit/run to (no message, jump SCENE 7)
+ }
+
+-----------------------------------------------
+ SCENE 7
+-----------------------------------------------
+
+ original interactive script:
+ 1. inquire->kai->about army
+ 2. inquire->yamagata->about kid
+ 3. inquire->groupie->about akira
+ 4. inquire->groupie->about tetsuo
+ 5. look->terrorists x 2
+ 6. check
+ 7. inquire (move added)
+ 8. move->[sector 2] (jump SCENE 8)
+ 8.x move->[sector 4] (game over, restart SCENE 7)
+
+-----------------------------------------------
+ SCENE 8
+-----------------------------------------------
+
+ original interactive script:
+ 1. inquire (peek added)
+ 2. peek
+ 3. sneak
+ 3.x make noise/hide (game over, restart SCENE 8)
+ 4. dash
+ 4.x any other (game over, restart SCENE 8)
+ 5. dive (jump SCENE 9)
+ 5.x any other (game over, restart SCENE 8)
+
+-----------------------------------------------
+ SCENE 9
+-----------------------------------------------
+
+ original interactive script:
+ 1. talk x 4
+ 2. check (cursor enabled)
+ 	- point ryu x 2
+ 	- point right terrorist (explain added)
+	x point gun (game over, restart SCENE 9)
+ OPTION A [
+ 	1. explain->lie/tease
+ 	2. rely on key (jump SCENE A, BRANCH A)
+ }
+ OPTION B {
+ 	1. explain->truth
+ 	2. rely on key (jump SCENE B, BRANCH B)
+ }
+
+-----------------------------------------------
+ SCENE A
+-----------------------------------------------
+
+ original interactive script:
+ 1. check (cursor enabled)
+	- beer (beer added)
+ 2. open->beer
+ 3. open (cursor enabled)
+	- fence net
+ 4.1 drink (jump 3.)
+ 4.2 run
+ 5. go on
+ BRANCH A (entry from SCENE 9) {
+ 	1. inquire
+ 	2. go on (jump SCENE B, BRANCH A)
+ }
+ BRANCH B (entry from SCENE B) {
+ 	1. go on x 2 (jump SCENE B, BRANCH A)
+ }
+
+-----------------------------------------------
+ SCENE B
+-----------------------------------------------
+
+ original interactive script:
+ BRANCH A {
+ 	1. talk
+ 	2. inquire->army
+ 	3. inquire->terrorists
+ 	4. ponder
+ 	5. beg x 2 (jump SCENE C)
+ }
+ BRANCH B {
+ 	1. beg x 2
+ 	1.x take->lab ID (jump SCENE A, BRANCH B)
+ 	2. inquire->army
+ 	2.x take->lab ID (jump SCENE A, BRANCH B)
+ 	3. inquire->terrorists
+ 	3.x take->lab ID (jump SCENE A, BRANCH B)
+ 	4. ponder
+ 	4.x take->lab ID (jump SCENE A, BRANCH B)
+ 	5. take->lab ID (jump SCENE C)
+ }
+
+-----------------------------------------------
+ SCENE C
+-----------------------------------------------
+
+ original interactive script:
+ 1. go on
+ 2. play shooting game (A,B,SEL - fire,hide,turn)
+	- shoot 7 enemies (jump 3.)
+	x get shot (game over, restart SCENE C)
+	x wait to long (game over, restart SCENE C)
+ 3. dodge
+ 3.x run or hide (game over, restart SCENE C-3.)
+ 4. jump on (jump SCENE D)
+ 4.x run or hide (game over, restart SCENE C-3.)
+
+-----------------------------------------------
+ SCENE D
+-----------------------------------------------
+
+ original interactive script:
+ 1. play shooting game (A,B - fire,dodge)
+	- shoot 7 enemies (jump SCENE E)
+	x get straight shot (game over, restart SCENE D)
+
+-----------------------------------------------
+ SCENE E
+-----------------------------------------------
+
+ no interactive events
+
+-----------------------------------------------
+ SCENE F
+-----------------------------------------------
+
+ original interactive script:
+ OPTION A {
+ 	1. look->tetsuo (talk added)
+ 	2. talk->tetsuo (jump SCENE 10)
+ }
+ OPTION B {
+ 	1. show->lab ID
+ 	2. look->colonel (talk added)
+ 	3.x talk->colonel (game over, restart SCENE F)
+ }
+
+-----------------------------------------------
+ SCENE 10
+-----------------------------------------------
+
+ original interactive script:
+ 1. call (full menu)
+ 2. inquire->army
+ 3. inquire->terrorist x 2
+ 4. inquire->tetsuo (akira added)
+ 5. inquire->akira
+ 6. ponder
+ 7. run (jump SCENE 11)
+
+-----------------------------------------------
+ SCENE 11
+-----------------------------------------------
+
+ original interactive script:
+ 1. look
+ 2. check
+ 3. run to x 2 (ponder added)
+ 4. run to
+ 5. ponder x 2 (move added)
+ OPTION A {
+ 	1. move->town (jump SCENE 12, BRANCH A)
+ }
+ OPTION B {
+ 	2. move->school (jump SCENE 12, BRANCH B)
+ }
+
+-----------------------------------------------
+ SCENE 12
+-----------------------------------------------
+
+ original interactive script:
+ BRANCH A {
+ 	1. move->school
+ 	2. move->stadium
+ 	OPTION A {
+ 		1. go on (jump SCENE 13, BRANCH A)
+	}
+ 	OPTION B {
+ 		1.1 stop
+ 		1.2 [cancel menu with B] (jump OPTION A, probably bug or workaround for exit)
+ 		2. check (cursor enabled)
+			- point laser (jump SCENE 13, BRANCH B)
+	}
+ }
+ BRANCH B {
+ 	1. move->town (jump SCENE 12, BRANCH A)
+ }
+
+ modified interactive script:
+ BRANCH A {
+ 	1. move->school
+ 	2. move->stadium
+ 	OPTION A {
+ 		1. go on (jump SCENE 13, BRANCH A)
+	}
+ 	OPTION B {
+ 		1.1 stop
+ 		1.2 go on (jump SCENE 13, BRANCH A)
+ 		2. check (cursor enabled)
+			- point laser
+ 		3. go on (jump SCENE 13, BRANCH B)
+	}
+ }
+ BRANCH B {
+ 	1. move->town (jump SCENE 12, BRANCH A)
+ }
+
+-----------------------------------------------
+ SCENE 13
+-----------------------------------------------
+
+ original interactive script:
+ BRANCH A {
+ 	1. dodge/jump on (game over, restart SCENE 12, BRANCH A, OPTION A)
+ }
+ BRANCH B {
+ 	1. use
+ 	1.x dodge/jump on (game over, restart SCENE 13, BRANCH B)
+ 	2. play shooting game (A - fire)
+		- shot tetsuo's body or empty space x 5 (jump 3.)
+		- shot tetsuo's chest (jump SCENE 16-66, ENDING A)
+		- shot samples (jump SCENE 16-90, ENDING B)
+		- shot tetsuo's right arm (jump SCENE 15, BRANCH B)
+ 	3. look
+ 	3.x hide/turn/yell (game over, restart SCENE 13, BRANCH B)
+ 	4. yell (jump SCENE 14, BRANCH A)
+ 	4.x jump/ask out/look (game over, restart SCENE 13, BRANCH B)
+ }
+
+-----------------------------------------------
+ SCENE 14
+-----------------------------------------------
+
+ original interactive script:
+ BRANCH A (entry from SCENE 13 only) {
+ 	1. inquire->kai->bike
+ 	2. peek->laser
+ 	3. inquire->kai->bike
+ 	4. ponder
+ 	5. peek->kei (jump SCENE 15, BRANCH A)
+ }
+
+-----------------------------------------------
+ SCENE 15
+-----------------------------------------------
+
+ BRANCH A {
+ 	OPTION A {
+ 		1. hit
+ 		1.x dash/pray/throw (game over, restart SCENE 15, BRANCH A)
+		2. play shooting game (A - fire)
+ 			- hit tetsuo's chest (jump SCENE 16-66, ENDING A)
+ 			x hit any other point (game over, restart SCENE 15, BRANCH A)
+	}
+ 	OPTION B {
+ 		1. look
+ 		2. ponder
+ 		3. look
+		OPTION B-1 {
+ 			1. throw->right
+ 			1.x dash/take/crouch/yell (game over, restart SCENE 15, BRANCH A, OPTION B)
+ 			2. hit
+			3. play shooting game (A - fire)
+ 				- hit tetsuo's chest (jump SCENE 16-66, ENDING A)
+ 				x hit tetsuo's body or miss (game over, restart SCENE 15)
+ 				x hit mirror (game over, restart SCENE 15, OPTION A-B)
+		}
+		OPTION B-2 {
+ 			1. throw->left
+ 			1.x dash/take/crouch/yell (game over, restart SCENE 15)
+ 			2. hit
+			3. play shooting game (A - fire)
+ 				- hit tetsuo's chest (jump SCENE 16-66, ENDING A)
+ 				x hit tetsuo's body or miss (game over, restart SCENE 15)
+ 				- hit mirror to the left (jump SCENE 15, BRANCH B)
+		}
+	}
+ }
+ BRANCH B {
+ 	OPTION A {
+ 		1. look
+		OPTION A-1 {
+ 			1. jump (jump SCENE 16-00, ENDING F)
+		}
+		OPTION A-2 {
+ 			1. run (jump SCENE 16-50, ENDING D)
+		}
+		OPTION A-3 {
+ 			1. hit (jump SCENE 16-70, ENDING E)
+		}
+	}
+ 	OPTION B {
+ 		1. attack (jump SCENE 16-40, ENDING C)
+	}
+ }
+
+-----------------------------------------------
+ SCENE 16 (ENDINGS)
+-----------------------------------------------
+

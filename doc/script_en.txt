@@ -1,0 +1,4090 @@
+
+		.WORD scene0_msg_lib
+		.WORD scene1_msg_lib
+		.WORD scene2_msg_lib
+		.WORD scene3_msg_lib
+		.WORD scene4_msg_lib
+		.WORD scene5_msg_lib
+		.WORD scene6_msg_lib
+scene0_msg_lib:
+scene1_msg_lib:
+		.WORD byte_24A1B4
+		.WORD byte_24A1B4
+		.WORD byte_24A1D7
+		.WORD byte_24A263
+		.WORD byte_24A2EB
+		.WORD byte_24A326
+		.WORD byte_24A35D
+		.WORD byte_24A385
+		.WORD byte_24A3AE
+		.WORD byte_24A40B
+		.WORD byte_24A43F
+		.WORD byte_24A43F
+		.WORD byte_24A469
+		.WORD byte_24A4FF
+		.WORD byte_24A56E
+		.WORD byte_24A597
+		.WORD byte_24A5C6
+		.WORD byte_24A5D6
+		.WORD byte_24A5E9
+		.WORD byte_24A5EF
+		.WORD byte_24A613
+		.WORD byte_24A67B
+		.WORD byte_24A6CF
+		.WORD byte_24A703
+		.WORD byte_24A70E
+		.WORD byte_24A746
+		.WORD byte_24A79F
+		.WORD byte_24A7A4
+		.WORD byte_24A7A9
+		.WORD byte_24A7B3
+		.WORD byte_24A7BF
+		.WORD byte_24A7CB
+		.WORD byte_24A80C
+		.WORD byte_24A838
+		.WORD byte_24A851
+		.WORD byte_24A867
+		.WORD byte_24A89B
+		.WORD byte_24A8C3
+		.WORD byte_24A8E2
+		.WORD byte_24A933
+		.WORD byte_24A996
+		.WORD byte_24A9BD
+		.WORD byte_24A9CF
+		.WORD byte_24AA0D
+		.WORD byte_24AA4D
+		.WORD byte_24AA86
+		.WORD byte_24AAA5
+		.WORD byte_24AADC
+		.WORD byte_24AB0B
+		.WORD byte_24AB28
+		.WORD byte_24AB3A
+scene2_msg_lib:
+		.WORD byte_24AB7C
+		.WORD byte_24ABD3
+		.WORD byte_24AC1E
+		.WORD byte_24AC74
+		.WORD byte_24AC82
+		.WORD byte_24AC95
+		.WORD byte_24ACC2
+		.WORD byte_24ACD6
+		.WORD byte_24ACE5
+		.WORD byte_24ACF1
+		.WORD byte_24ACFC
+		.WORD byte_24AD1F
+		.WORD byte_24AD52
+		.WORD byte_24AD93
+		.WORD byte_24ADB7
+		.WORD byte_24ADF9
+		.WORD byte_24AE19
+		.WORD byte_24AE68
+		.WORD byte_24AE9D
+		.WORD byte_24AEEE
+		.WORD byte_24AEFE
+		.WORD byte_24AF2D
+		.WORD byte_24AF95
+		.WORD byte_24AFD8
+		.WORD byte_24AFF3
+		.WORD byte_24B031
+		.WORD byte_24B06B
+		.WORD byte_24B0AF
+		.WORD byte_24B0F8
+		.WORD byte_24B141
+		.WORD byte_24B178
+		.WORD byte_24B1AF
+		.WORD byte_24B1D6
+		.WORD byte_24B20A
+		.WORD byte_24B22F
+		.WORD byte_24B268
+		.WORD byte_24B2AC
+		.WORD byte_24B2FE
+		.WORD byte_24B374
+		.WORD byte_24B39D
+		.WORD byte_24B3D6
+		.WORD byte_24B3F2
+		.WORD byte_24B401
+		.WORD byte_24B401
+		.WORD byte_24B401
+		.WORD byte_24B401
+		.WORD byte_24B401
+		.WORD byte_24B401
+scene3_msg_lib:
+		.WORD byte_221B4
+		.WORD byte_221C8
+		.WORD byte_22233
+		.WORD byte_22298
+		.WORD byte_222F2
+		.WORD byte_22322
+		.WORD byte_2233C
+		.WORD byte_2234D
+		.WORD byte_223A6
+		.WORD byte_223A6
+		.WORD byte_223CE
+		.WORD byte_223CE
+		.WORD byte_223CE
+		.WORD byte_223CE
+		.WORD byte_223CE
+		.WORD byte_223CE
+scene4_msg_lib:
+		.WORD byte_223CE
+		.WORD byte_22434
+		.WORD byte_22493
+		.WORD byte_22507
+		.WORD byte_22576
+		.WORD byte_225C5
+		.WORD byte_225E2
+		.WORD byte_22606
+		.WORD byte_2264D
+		.WORD byte_22684
+		.WORD byte_22684
+		.WORD byte_22684
+		.WORD byte_22684
+		.WORD byte_22684
+		.WORD byte_22684
+		.WORD byte_22684
+scene5_msg_lib:
+		.WORD byte_22684
+		.WORD byte_226CD
+		.WORD byte_226FB
+		.WORD byte_22719
+		.WORD byte_2272D
+		.WORD byte_22757
+		.WORD byte_2277B
+		.WORD byte_22799
+		.WORD byte_227A9
+		.WORD byte_227CE
+		.WORD byte_227DF
+		.WORD byte_22816
+		.WORD byte_22842
+		.WORD byte_2286B
+		.WORD byte_228AD
+		.WORD byte_228DD
+		.WORD byte_22918
+		.WORD byte_2297D
+		.WORD byte_229DB
+		.WORD byte_22A03
+		.WORD byte_22A3C
+		.WORD byte_22A64
+		.WORD byte_22A77
+		.WORD byte_22AFA
+		.WORD byte_22B2F
+		.WORD byte_22B48
+		.WORD byte_22B79
+		.WORD byte_22B9F
+		.WORD byte_22B9F
+		.WORD byte_22B9F
+		.WORD byte_22B9F
+		.WORD byte_22B9F
+scene6_msg_lib:
+		.WORD byte_22B9F
+		.WORD byte_22BCF
+		.WORD byte_22C22
+		.WORD byte_22C4D
+		.WORD byte_22C75
+		.WORD byte_22C9A
+		.WORD byte_22CC6
+		.WORD byte_22CE9
+		.WORD byte_22D1C
+		.WORD byte_22D52
+		.WORD byte_22D8D
+		.WORD byte_22DC9
+		.WORD byte_22E2D
+		.WORD byte_22E79
+		.WORD byte_22E9E
+		.WORD byte_22EC0
+		.WORD byte_22EC7
+		.WORD byte_22EEA
+		.WORD byte_22F15
+		.WORD byte_22F2D
+		.WORD byte_22F63
+		.WORD byte_22F9A
+		.WORD byte_22FBB
+		.WORD byte_2303F
+		.WORD byte_2306A
+		.WORD byte_2309B
+		.WORD byte_230B3
+		.WORD byte_230D5
+		.WORD byte_23108
+		.WORD byte_2312D
+		.WORD byte_2314E
+		.WORD byte_2315A
+		.WORD byte_23173
+		.WORD byte_23196
+		.WORD byte_231C8
+		.WORD byte_231E2
+		.WORD byte_231F5
+		.WORD byte_2320A
+		.WORD byte_23239
+		.WORD byte_23262
+		.WORD byte_2328C
+		.WORD byte_232DB
+		.WORD byte_2331E
+		.WORD byte_2334D
+		.WORD byte_23390
+		.WORD byte_233F1
+		.WORD byte_23422
+;		------------------------------
+byte_24A1B4:
+		Suddenly, Tetsuo's bike burst
+		into flames.
+byte_24A1D7:
+		I ran to Tetsuo, and helped
+		sit him up.
+
+		Kaneda: Hang in there, Tetsuo!
+
+		Tetsuo: H--he did this...
+
+		Tetsuo pointed to someone, but
+		I wasn't sure if it was an old
+		man, or a very wrinkly kid.
+byte_24A263:
+		Kaneda: Why you... What did
+		you do, you weird little...
+
+		An approaching helicopter
+		drowned out my voice. It was
+		the Army.
+
+		Hearing it, the wrinkly kid
+		began to tremble.
+byte_24A2EB:
+		The helicopter landed next to
+		us, its door opening to reveal
+		a man.
+byte_24A326:
+		Takashi, the wrinkly kid,
+		stared at the man, his face
+		stiffening with fear.
+byte_24A35D:
+		Army: Hands behind your head!
+		Elbows on the ground!
+byte_24A385:
+		Kaneda: Ho--hold on mister!
+		We didn't do nothing!
+byte_24A3AE:
+		Kaneda: My friend's hurt!
+
+		Army: Colonel! There's an
+		injured person here!
+
+		Man: We will take him to
+		the lab. Let's go.
+byte_24A40B:
+		Kaneda: You stupid jerks!
+		What the hell are you going to
+		do with us!?
+byte_24A43F:
+		Army: What were you doing in
+		a place like that, anyway?
+byte_24A469:
+		Kaneda: We were traveling on
+		our bikes in the middle of the
+		night to see my deathly ill
+		mother. We were attacked by
+		the Clowns, and one of my
+		friends got hurt, so I got
+		a little pissed off...
+byte_24A4FF:
+		Army: You got pissed off, and
+		that's why 8 of these Clowns
+		are now in the hospital?
+		Right. And your "deathly ill"
+		mother. How is she doing?
+byte_24A56E:
+		Kaneda: Fortunately, last
+		night, she cleared the hump.
+byte_24A597:
+		Army: She cleared the hump,
+		huh? What next, a triathlon?
+byte_24A5C6:
+		Kaneda: Man, I'm hungry.
+byte_24A5D6:
+		It's the Army investigator.
+byte_24A5E9:
+		It's me!
+byte_24A5EF:
+		Those are our licenses. Be
+		careful with them.
+byte_24A613:
+		It looks like a list of known
+		Terrorists.
+
+		They shouldn't waste their
+		time looking through it...
+		There's no way we'd be on it.
+byte_24A67B:
+		Army: I can tell just by
+		looking at you... This
+		interrogation is over.
+
+		Go wait outside.
+
+		Next!
+byte_24A6CF:
+		My friends! We're all badasses
+		at the top of our game!
+byte_24A703:
+		It's my face.
+byte_24A70E:
+		Kaneda: Geez, mister... What
+		were YOU doing in a place like
+		that last night?
+byte_24A746:
+		Man: Takashi, I've come for
+		you. Come on, let's go back.
+		None of you are allowed to
+		live outside, you know that!
+byte_24A79F:
+		It's Yamagata.
+byte_24A7A4:
+		It's Kai.
+byte_24A7A9:
+		It's Kuwata.
+byte_24A7B3:
+		It's Watanabe.
+byte_24A7BF:
+		It's Takeyama.
+byte_24A7CB:
+		Yamagata: Man, if we had a bit
+		longer last night, we could've
+		crushed those Clowns.
+byte_24A80C:
+		Kai: Yeah that's nice, mister.
+		So where'd you take Tetsuo?
+byte_24A838:
+		Army: Hey! Don't look away!
+byte_24A851:
+		Army: You're not with the
+		Terrorists, are you?
+byte_24A867:
+		Kaneda: Not even! We're all
+		badasses at the top of our
+		game!
+byte_24A89B:
+		Kaneda: Hey mister, you're a
+		pretty handsome guy!
+byte_24A8C3:
+		Kaneda: Hey mister, your
+		zipper's down.
+byte_24A8E2:
+		Tetsuo happened to take the
+		lead for a change this time.
+
+		We had just passed a tollbooth
+		when it happened...
+byte_24A933:
+		It must be a list of known
+		Terrorists...
+
+		Oh, there are even some girls
+		on here! Wow, this one's cute!
+
+		Wonder what her name is...
+byte_24A996:
+		Kaneda: Hey, can you tell me
+		what this girl's name is?
+byte_24A9BD:
+		Kaneda: Where's this girl
+		live?
+byte_24A9CF:
+		Kaneda: Hey, at least tell me
+		her phone number or something!
+		I'm begging you!
+byte_24AA0D:
+		Army: If we knew that kind of
+		information, we wouldn't be
+		searching for her!
+byte_24AA4D:
+		Lackey: It looks like these
+		guys have no connection
+		to the Terrorists.
+byte_24AA86:
+		Kaneda: Hey, he made a joke!
+		Hahaha...
+byte_24AAA5:
+		Man: Arrest these punks!
+
+		The Army came and took us into
+		custody.
+byte_24AADC:
+		The helicopter carrying the
+		kid and Tetsuo slowly lifted
+		off.
+byte_24AB0B:
+		Looks like they think we're
+		Terrorists.
+byte_24AB28:
+		Army: Hey, shut up!
+byte_24AB3A:
+		Interrogation rooms were set
+		up in the gym using plywood
+		walls to separate them.
+byte_24AB7C:
+		We were brought outside the
+		entrance of the interrogation
+		room.
+
+		Army: Just wait here...
+		Next! Get in here!
+byte_24ABD3:
+		Protesting students and
+		Terrorists are causing an
+		uproar.
+
+		Yamagata: They're acting like
+		it's a picnic!
+byte_24AC1E:
+		Looks like they're using
+		the gym as a makeshift
+		interrogation area, complete
+		with plywood walls.
+byte_24AC74:
+		So then he said...
+byte_24AC82:
+		Oh yeah? And then what?
+byte_24AC95:
+		There's lots of noise coming
+		from behind that door.
+byte_24ACC2:
+		We're freedom fighters.
+byte_24ACD6:
+		I need a doctor!
+byte_24ACE5:
+		I gotta pee!
+byte_24ACF1:
+		I'm starving!
+byte_24ACFC:
+		Kaneda: Hmm... I've seen this
+		person before somewhere...
+byte_24AD1F:
+		Kaneda: Oh! It's that girl
+		from before! I should ask her
+		out for a drink.
+byte_24AD52:
+		When I tried to talk to the
+		girl, a Terrorist stood up and
+		pulled the pin on his grenade!
+byte_24AD93:
+		The Army soldiers were holding
+		the Terrorist's grenade.
+byte_24ADB7:
+		Kai: So it seems the Army is
+		working with the police to
+		hunt down Terrorist groups.
+		Great.
+byte_24ADF9:
+		The Akira NES game is now
+		in English!
+byte_24AE19:
+		Kaneda: Hey, Yamagata!
+		Let's run for it!
+
+		Yamagata: Yeah!
+		Let's go, guys!
+
+		Army: Hey you! Stop!
+		They're escaping!
+byte_24AE68:
+		The Army captured Kaneda and
+		his friends.
+
+		They were sent to a reform
+		school.
+byte_24AE9D:
+		Kaneda: You dumb son of a
+		bitch! Hand that over!
+
+		I sprung upon him, trying to
+		steal his grenade.
+byte_24AEEE:
+		But then it exploded...
+byte_24AEFE:
+		Oh, wow. It's a cute girl!
+
+		I should try asking her out!
+byte_24AF2D:
+		Kaneda: Everyone take cover!
+
+		Hearing my shout, my confused
+		friends took cover on the
+		ground and watched to see what
+		would happen.
+byte_24AF95:
+		On 12/25, there's a Lily
+		Matsuzaka concert? In the gym?
+		Who is she anyway?
+byte_24AFD8:
+		Army: Hey! You're in the way!
+		Move it!
+byte_24AFF3:
+		Student: Long live the
+		Freedom Revolution! Banzai!
+
+		Thi...This is bad!
+byte_24B031:
+		Kaneda: Don't just stand
+		around with your thumbs in
+		your asses! Everyone take
+		cover!
+byte_24B06B:
+		Army: You must be one of those
+		guys from that crazy new cult!
+		You're coming with us!
+byte_24B0AF:
+		Army: It's a dud! Get him!
+
+		Student: Ah...
+		I--I'm so sorry!
+
+		The student was surrounded.
+byte_24B0F8:
+		Thud! Oof! Squish!
+
+		Army: That's enough. Bring
+		him with us. We'll teach him
+		a lesson.
+byte_24B141:
+		Yamagata: You dumbass! If you
+		want to die, why don't you
+		hang yourself!
+byte_24B178:
+		Army: You guys are free to
+		leave. We've contacted your
+		school.
+byte_24B1AF:
+		Wonder if there's a way to
+		free that girl, too...
+byte_24B1D6:
+		All of a sudden, the grenade
+		I thought was a dud exploded!
+byte_24B20A:
+		Kaneda: Uh-oh... Her turn's
+		probably coming up.
+byte_24B22F:
+		She seems nervous.
+		Aww, and it looks like she's
+		about to cry...
+byte_24B268:
+		Everyone seems impatient.
+		It's almost that girl's turn.
+		I want to get her out somehow.
+byte_24B2AC:
+		Kaneda: Hey gramps! She's one
+		of my buddies, too. I can't
+		leave a friend behind.
+
+		Army: What?!
+byte_24B2FE:
+		Army: Who are you calling
+		gramps, you little shit!
+		Listen here, kid. I'm only 25,
+		and I'm not even married yet!
+		So watch your damn mouth!
+byte_24B374:
+		Army: Get out of here, and
+		take your friend with you!
+byte_24B39D:
+		All right! We can leave the
+		gym now. And we've got her
+		with us too!
+byte_24B3D6:
+		Kaneda: Is she planning on
+		staying here?
+byte_24B3F2:
+		Kaneda: Hehe, sorry!
+byte_24B401:
+		I managed to get her out!
+byte_221B4:
+		I managed to get her out!
+byte_221C8:
+		Kaneda: Maybe we could go for
+		drinks somewhere around here.
+		And I thought that we could
+		talk about that whole
+		"revolution" thing.
+byte_22233:
+		Girl: I think you're a skirt
+		chaser who'll try anything he
+		can. You'll help anyone, so
+		long as it's a girl, right?
+byte_22298:
+		Kaneda: You're wrong! I have
+		very high standards, you know.
+		It's not their looks that
+		count, it's their sensitivity.
+byte_222F2:
+		Girl: I suppose I owe you one.
+		Thank you very much, uh...
+byte_22322:
+		Kaneda: I'm Kaneda. Nice to
+		meet you.
+byte_2233C:
+		Girl: Goodbye, Kaneda.
+byte_2234D:
+		Kaneda: Hold on! I'm the guy
+		that saved you back there! You
+		could at least tell me your
+		name, you cold bitch!
+byte_223A6:
+		Seems the stupid Army failed
+		at handling the grenade.
+byte_223CE:
+		Those Army jerks just had to
+		go tell our school about it!
+		So we got to feel the wrath
+		of "Jaws", the P.E. teacher.
+byte_22434:
+		Groupie: What happened to your
+		cheek?
+
+		Kaneda: Shut the hell up!
+
+		Kai: That big-jawed bastard
+		who teaches P.E., that's what!
+byte_22493:
+		Groupie: They say you guys
+		fought the Clowns on the
+		highway in the Old Town.
+		Why didn't you just wipe 'em
+		out? Those guys are,
+		like, so gross.
+byte_22507:
+		Yamagata: There were Clowns,
+		demonstrators, cops, the damn
+		Army... And that idiot Tetsuo
+		had to go and have that
+		accident.
+
+		Groupie: What!? What
+		happened to Tetsuo?!
+byte_22576:
+		Kai: He's in the hospital,
+		I guess... But we don't know
+		where.
+
+		Kaneda: The idiot was trying
+		to show off...
+byte_225C5:
+		Kai: It's Tetsuo! Kaneda,
+		look! Your bike...
+byte_225E2:
+		Tetsuo was riding MY bike with
+		a girl behind him.
+byte_22606:
+		Kaneda: That idiot thinks he
+		can handle my bike?
+
+		Kai: Who does he think he's
+		fooling?
+byte_2264D:
+		I got on Yamagata's bike and
+		went after him. Had to teach
+		Tetsuo a lesson.
+byte_22684:
+		First, we checked our hangout.
+
+		Owner: Oh, you scared me.
+		What do you guys want?
+byte_226CD:
+		Owner: Hey, you're back
+		already. Did you find Tetsuo?
+byte_226FB:
+		Owner: Hey! Wait!
+
+		Kaneda: No way!
+byte_22719:
+		We reached sector  [num].
+byte_2272D:
+		Before returning, we tried to
+		find Tetsuo's location.
+byte_22757:
+		Man: Oh, Tetsuo? He went
+		toward sector 2.
+byte_2277B:
+		Man: You jerks are way
+		too loud!
+byte_22799:
+		Man: Tetsuo? No idea.
+byte_227A9:
+		Man: Tetsuo? He just went
+		toward sector 3.
+byte_227CE:
+		Man: What's your rush?
+byte_227DF:
+		Man: If you're looking for
+		Tetsuo, I think he went toward
+		sector 4.
+byte_22816:
+		Man: Hey, go away!
+		...Unless you got some pills!
+byte_22842:
+		Man: T-thanks. Y-you're
+		searchin' for someone?
+byte_2286B:
+		Water's running through the
+		channel, separating the Old
+		Town from Neo-Tokyo.
+byte_228AD:
+		It's Neo-Tokyo's slum. There's
+		a noodle shop and a dorm.
+byte_228DD:
+		It's the outskirts of
+		Neo-Tokyo. There are lots
+		of factories nearby.
+byte_22918:
+		Kaneda: You wouldn't be so
+		jumpy if you didn't have
+		something to hide. Why don't
+		you sell normal drinks for a
+		change?
+byte_2297D:
+		Owner: How 'bout buying
+		something for once! This isn't
+		a damn hangout!
+
+		Yamagata: Yeah right! Drink
+		your dog piss?
+byte_229DB:
+		That bastard is hiding pills
+		under his right hand.
+byte_22A03:
+		Owner: Hey, if you're
+		looking for pills, I don't
+		have any more.
+byte_22A3C:
+		Owner: I think Tetsuo
+		headed toward sector  [num].
+byte_22A64:
+		There's no sign of Tetsuo.
+byte_22A77:
+		Man: You waltz in here
+		reeking of alcohol with a
+		pompous attitude... Show some
+		respect!
+
+		The man suddenly struck my
+		face. It turned into a brawl.
+byte_22AFA:
+		Kai: Kaneda! It's the cops!
+
+		Kaneda: Run for it!
+
+		But we were caught by the
+		police.
+byte_22B2F:
+		Kaneda was sent to a reform
+		school.
+byte_22B48:
+		Man: You're looking for that
+		guy? He went toward the
+		factories.
+byte_22B79:
+		Man: Hehe... So you brought
+		me some pills?
+byte_22B9F:
+		Kaneda: Wait!
+
+		We finally found Tetsuo
+		outside the factories.
+byte_22BCF:
+		However, Tetsuo and the girl
+		were being attacked by the
+		Clowns! I quickly jumped off
+		my bike.
+
+		Kai: Kaneda, watch out!
+byte_22C22:
+		Whoosh!
+
+		An iron pipe swung toward
+		Kaneda's head.
+byte_22C4D:
+		Swish!
+
+		The Clown's iron pipe cut
+		through the air.
+byte_22C75:
+		Kai: Are you just going to
+		abandon Tetsuo like that?!
+byte_22C9A:
+		Thud!
+
+		Kai's iron pipe slammed into
+		the Clown's head.
+byte_22CC6:
+		We managed to save Tetsuo
+		and surrounded the Clowns.
+byte_22CE9:
+		Tetsuo became furious and
+		started attacking the Clown
+		who hurt the girl.
+byte_22D1C:
+		Kaneda: Stop it already,
+		Tetsuo! You're gonna kill him!
+		You want that?
+byte_22D52:
+		Tetsuo: I want him more than
+		dead! I'll split his fucking
+		head open!
+byte_22D8D:
+		Tetsuo: Shut up! Don't order
+		me around!
+
+		Kaneda: We were just worried
+		about you.
+byte_22DC9:
+		Tetsuo: I could've handled it
+		on my own! I admit I've
+		been beaten before... But I
+		won't always be on the
+		receiving end!
+
+		Girl: Tetsuo...
+byte_22E2D:
+		Tetsuo: Shut up! Go away!
+
+		Kaneda: Hey, wait! Where
+		are you going?
+
+		Tetsuo: Just leave me alone!
+byte_22E79:
+		Tetsuo pushed us away and
+		walked off.
+
+		Tetsuo: Agh!
+byte_22E9E:
+		Tetsuo: AKIRA?!
+		I don't know wh...
+		Aaagh!
+byte_22EC0:
+		AKIRA!
+byte_22EC7:
+		Kaneda: Tetsuo... you...
+
+		Kai: Hey...
+
+		Tetsuo began to tremble.
+byte_22EEA:
+		Suddenly, blackened cars and
+		a CRC approached.
+byte_22F15:
+		It looks like an Army car.
+byte_22F2D:
+		It's the Control Room Car,
+		a lab-on-wheels from the
+		looks of it.
+byte_22F63:
+		As I approached the CRC,
+		several men in lab coats
+		came out.
+byte_22F9A:
+		The men surrounded Tetsuo
+		and examined him.
+byte_22FBB:
+		Assistant A: This is really
+		strange!
+
+		Assistant B: I'm getting a
+		blue pattern on scope No. 3.
+
+		Doctor: What? No! Retrieve the
+		subject now! Hurry!
+byte_2303F:
+		Looks like they gave Tetsuo
+		some sort of injection.
+byte_2306A:
+		Seems the men in white from
+		the CRC were after Tetsuo's
+		body.
+byte_2309B:
+		Kaneda: Leave my friend alone!
+byte_230B3:
+		Kaneda: Hey! What do you mean
+		by "subject"?
+byte_230D5:
+		As I tried to run to him, a
+		man in black blocked my path.
+byte_23108:
+		Kaneda: What's with the
+		get-up? You going to a
+		funeral?
+byte_2312D:
+		Man: Hey, don't mess with
+		my pockets!
+byte_2314E:
+		Why's the Army here?
+byte_2315A:
+		Man: Stop resisting arrest!
+byte_23173:
+		Out of the way!
+
+		The man fired his pistol.
+byte_23196:
+		Kaneda: Mff, huff...
+
+		I tried to yell, but my
+		mouth was covered.
+byte_231C8:
+		Kaneda: You guys are from the
+		Army, right?
+byte_231E2:
+		Kaneda: Where are you taking
+		Tetsuo?!
+byte_231F5:
+		Kaneda: Damn it, give Tetsuo
+		back!
+byte_2320A:
+		Thwack!
+
+		Kaneda: Ow!
+
+		I was knocked to the ground
+		by the man.
+byte_23239:
+		Kaneda: No! Wait!
+
+		The CRC and the Army cars
+		drove away.
+byte_23262:
+		Just as I was getting up, the
+		man got into the car.
+byte_2328C:
+		Doctor: We've recovered the
+		experimental subject. We're
+		back on track now. Bring him
+		into the CRC.
+byte_232DB:
+		A man in black stepped out of
+		the Army car to protect the
+		men in lab coats.
+byte_2331E:
+		The men in lab coats were
+		getting back into the CRC.
+byte_2334D:
+		Man: Don't get all
+		uppity, kid!
+
+		The man pinned my arms
+		behind my back.
+byte_23390:
+		Kaneda: Just knock it off now!
+		This whole thing happened
+		because you took my bike for
+		a spin. Enough already.
+byte_233F1:
+		Tetsuo: Why do you always
+		have to try to save me?
+
+		Kaneda: Uh...
+byte_23422:
+		Tetsuo suddenly grabbed
+		his head and began to
+		groan in pain.
+
+		Tetsuo: Aah...
+ original unused -:
+		Nursery
+
+		.WORDscene7_msg_lib
+		.WORDscene8_msg_lib
+		.WORDscene9_msg_lib
+		.WORDsceneA_msg_lib
+		.WORDsceneB_msg_lib
+		.WORDsceneC_msg_lib
+		.WORDsceneD_msg_lib
+		.WORDsceneE_msg_lib
+		.WORDsceneF_msg_lib
+scene7_msg_lib:
+		.WORD byte_262232
+		.WORD byte_262232
+		.WORD byte_262232
+		.WORD byte_262232
+		.WORD byte_262232
+		.WORD byte_262280
+		.WORD byte_2622A8
+		.WORD byte_2622CB
+		.WORD byte_2622F2
+		.WORD byte_262316
+		.WORD byte_26233E
+		.WORD byte_26236E
+		.WORD byte_2623A4
+		.WORD byte_2623BD
+		.WORD byte_2623CF
+		.WORD byte_2623DB
+		.WORD byte_26243A
+		.WORD byte_262457
+		.WORD byte_26248B
+		.WORD byte_2624D0
+		.WORD byte_2624F5
+		.WORD byte_262534
+		.WORD byte_262550
+		.WORD byte_262596
+		.WORD byte_2625BB
+		.WORD byte_2625C8
+		.WORD byte_2625E7
+		.WORD byte_2625FC
+		.WORD byte_26260D
+		.WORD byte_26261C
+		.WORD byte_262635
+		.WORD byte_262661
+		.WORD byte_26267F
+		.WORD byte_26269F
+		.WORD byte_2626B0
+		.WORD byte_2626EC
+		.WORD byte_262719
+		.WORD byte_262737
+		.WORD byte_262751
+		.WORD byte_262777
+		.WORD byte_2627AE
+		.WORD byte_2627E6
+		.WORD byte_2627FA
+		.WORD byte_262821
+		.WORD byte_262821
+		.WORD byte_262821
+		.WORD byte_262821
+		.WORD byte_262821
+scene8_msg_lib:
+		.WORD byte_262821
+		.WORD byte_262831
+		.WORD byte_262872
+		.WORD byte_262887
+		.WORD byte_262898
+		.WORD byte_2628A3
+		.WORD byte_2628F3
+		.WORD byte_262916
+		.WORD byte_262928
+		.WORD byte_262943
+		.WORD byte_262943
+		.WORD byte_26295F
+		.WORD byte_26298E
+		.WORD byte_2629CE
+		.WORD byte_2629CE
+		.WORD byte_262A13
+		.WORD byte_262A3B
+		.WORD byte_262A53
+		.WORD byte_262A8A
+		.WORD byte_262A9B
+		.WORD byte_262AA5
+		.WORD byte_262AE0
+		.WORD byte_262B18
+		.WORD byte_262B4B
+		.WORD byte_262B7E
+		.WORD byte_262B9D
+		.WORD byte_262C17
+		.WORD byte_262C23
+		.WORD byte_262C4F
+		.WORD byte_262C93
+		.WORD byte_262C93
+		.WORD byte_262C93
+scene9_msg_lib:
+		.WORD byte_262C93
+		.WORD byte_262CC6
+		.WORD byte_262D11
+		.WORD byte_262D19
+		.WORD byte_262D5A
+		.WORD byte_262D9D
+		.WORD byte_262DD5
+		.WORD byte_262DFE
+		.WORD byte_262E12
+		.WORD byte_262E39
+		.WORD byte_262E4A
+		.WORD byte_262EA7
+		.WORD byte_262EB3
+		.WORD byte_262EFD
+		.WORD byte_262F45
+		.WORD byte_262F64
+		.WORD byte_262F88
+		.WORD byte_262F9C
+		.WORD byte_262FB4
+		.WORD byte_262FE8
+		.WORD byte_263001
+		.WORD byte_263013
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+		.WORD byte_26303E
+sceneA_msg_lib:
+		.WORD byte_52000
+		.WORD byte_5201E
+		.WORD byte_5202C
+		.WORD byte_5204E
+		.WORD byte_52072
+		.WORD byte_520B6
+		.WORD byte_520DF
+		.WORD byte_520EC
+		.WORD byte_520F9
+		.WORD byte_52116
+		.WORD byte_5212C
+		.WORD byte_52190
+		.WORD byte_521BE
+		.WORD byte_521FA
+		.WORD byte_5222A
+		.WORD byte_52243
+		.WORD byte_52252
+		.WORD byte_52264
+		.WORD byte_5227D
+		.WORD byte_52290
+		.WORD byte_522B7
+		.WORD byte_522D3
+		.WORD byte_522E7
+		.WORD byte_52305
+		.WORD byte_52330
+		.WORD byte_5233C
+		.WORD byte_5234C
+		.WORD byte_52370
+		.WORD byte_52370
+		.WORD byte_52370
+		.WORD byte_52370
+		.WORD byte_52370
+sceneB_msg_lib:
+		.WORD byte_52372
+		.WORD byte_52390
+		.WORD byte_523B0
+		.WORD byte_523B5
+		.WORD byte_523E2
+		.WORD byte_52427
+		.WORD byte_52499
+		.WORD byte_524B8
+		.WORD byte_524D6
+		.WORD byte_524F2
+		.WORD byte_52547
+		.WORD byte_52572
+		.WORD byte_5259A
+		.WORD byte_525B1
+		.WORD byte_525F9
+		.WORD byte_52605
+		.WORD byte_5263E
+		.WORD byte_52673
+		.WORD byte_526D8
+		.WORD byte_52701
+		.WORD byte_52723
+		.WORD byte_52723
+		.WORD byte_52723
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+		.WORD byte_52725
+sceneC_msg_lib:
+		.WORD byte_52725
+		.WORD byte_5276F
+		.WORD byte_5278D
+		.WORD byte_527CF
+		.WORD byte_52838
+		.WORD byte_52860
+		.WORD byte_52872
+		.WORD byte_5288D
+		.WORD byte_528A5
+		.WORD byte_528EF
+		.WORD byte_52905
+		.WORD byte_5291D
+		.WORD byte_52945
+		.WORD byte_5297F
+		.WORD byte_52989
+		.WORD byte_529AB
+		.WORD byte_529BB
+		.WORD byte_529FA
+		.WORD byte_52A1E
+		.WORD byte_52A34
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+		.WORD byte_52A5B
+sceneD_msg_lib:
+		.WORD byte_52A5B
+		.WORD byte_52AA6
+		.WORD byte_52ACD
+		.WORD byte_52B2C
+		.WORD byte_52B71
+		.WORD byte_52B97
+		.WORD byte_52BC7
+		.WORD byte_52BEC
+		.WORD byte_52C43
+		.WORD byte_52C70
+		.WORD byte_52CA5
+		.WORD byte_52CEF
+		.WORD byte_52D30
+		.WORD byte_52D67
+		.WORD byte_52D93
+		.WORD byte_52DAA
+sceneE_msg_lib:
+		.WORD byte_52DAA
+		.WORD byte_52DB8
+		.WORD byte_52DBA
+		.WORD byte_52DD2
+		.WORD byte_52E14
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+		.WORD byte_52E44
+sceneF_msg_lib:
+		.WORD byte_52E44
+		.WORD byte_52E93
+		.WORD byte_52EA1
+		.WORD byte_52EB0
+		.WORD byte_52EC0
+		.WORD byte_52EDD
+		.WORD byte_52EEF
+		.WORD byte_52F09
+		.WORD byte_52F57
+		.WORD byte_52F75
+		.WORD byte_52F9E
+		.WORD byte_52FAE
+		.WORD byte_52FAE
+		.WORD byte_52FEA
+		.WORD byte_53031
+		.WORD byte_5305C
+		.WORD byte_530A4
+		.WORD byte_530E5
+		.WORD byte_5310B
+		.WORD byte_53154
+		.WORD byte_5317C
+		.WORD byte_531A3
+		.WORD byte_531C5
+		.WORD byte_531DB
+		.WORD byte_531F1
+		.WORD byte_53221
+		.WORD byte_5322D
+		.WORD byte_5324A
+		.WORD byte_5326B
+		.WORD byte_532B3
+		.WORD byte_532D5
+		.WORD byte_532E6
+byte_262232:
+		Yamagata: Tetsuo must've
+		banged his head pretty hard in
+		that accident. He's just not
+		the same.
+byte_262280:
+		Yamagata: Those Army goons
+		gotta be hiding something.
+byte_2622A8:
+		Yamagata: That brat's got
+		something to do with the Army.
+byte_2622CB:
+		Yamagata: The Army's treating
+		Tetsuo like they treat that
+		kid.
+byte_2622F2:
+		Yamagata: Was there a guy like
+		that at school?
+byte_262316:
+		Kai: I bet he saw an Army
+		secret or something.
+byte_26233E:
+		Kai: Didn't they call Tetsuo
+		an "experimental subject" or
+		something?
+byte_26236E:
+		Kai: Maybe Tetsuo's been
+		turned into some sort of Army
+		experiment.
+byte_2623A4:
+		Kai: I don't really get it.
+byte_2623BD:
+		Kai: Huh? Who's that?
+byte_2623CF:
+		Groupie: I dunno.
+byte_2623DB:
+		Groupie: Let's just stop
+		thinking about it and go home.
+		Without your bikes, you're
+		nothing but loser perverts.
+byte_26243A:
+		Kai: Skirt-chasers,
+		actually.
+byte_262457:
+		Just after the Groupies left,
+		there was an explosion by the
+		walkway...
+byte_26248B:
+		What was that?!
+
+		      -cough-
+
+		  Help!
+
+				 Run for it!
+
+		Call the police!
+byte_2624D0:
+		Yamagata: Damn, the
+		Terrorists again. Let's check
+		it out!
+byte_2624F5:
+		As I made my way through the
+		fleeing people, the Terrorists
+		emerged from the smoke.
+byte_262534:
+		My friends were lost in the
+		crowd.
+byte_262550:
+		There were 4 or 5 of them.
+		They came out of the smoke,
+		guns blazing! The Terrorists
+		attacked the Army!
+byte_262596:
+		There's a girl among them.
+
+		Kaneda: That's the girl from
+		before!
+byte_2625BB:
+		It's so smokey...
+byte_2625C8:
+		The Army chased the
+		Terrorists, leaving the
+		walkway.
+byte_2625E7:
+		I can hear the Army shouting.
+byte_2625FC:
+		Army: They went for the
+		sewers!
+byte_26260D:
+		The Army let them run.
+byte_26261C:
+		Groupie: You're going to save
+		Tetsuo, right Kaneda?
+byte_262635:
+		Groupie: Fine. C'mon, let's
+		go! Let's ditch the pervs.
+byte_262661:
+		Kaneda: I wanted to ask you
+		guys something...
+byte_26267F:
+		The hangout... As usual, no
+		one's here.
+byte_26269F:
+		I ended up in the sewers.
+byte_2626B0:
+		Man: A girl? The Army was
+		chasing one down there...
+
+		Kaneda: Thanks!
+
+		I ran to the sewers.
+byte_2626EC:
+		I passed by the Old Town, the
+		noodle shop, and the dorms.
+byte_262719:
+		Man: A girl, eh? Haven't
+		seen her.
+byte_262737:
+		I went towards the factories.
+byte_262751:
+		Man: A Girl?! Who cares?
+		Gimme some pills!
+byte_262777:
+		Kaneda: Ah!
+
+		The drug addict pulled out a
+		knife and sprung at me!
+byte_2627AE:
+		But I've got all kinds of ways
+		to deal with shit like this
+		by now.
+byte_2627E6:
+		Was the Army chasing that
+		girl?
+byte_2627FA:
+		If the Army is busy with the
+		Terrorists, all the better
+		for us.
+byte_262821:
+		Kaneda: Where'd she go?
+byte_262831:
+		There's a pathway along the
+		sewer. The water separates
+		this path from the other side.
+byte_262872:
+		Kaneda: Shit, they noticed me!
+byte_262887:
+		Kaneda: I hear a voice...
+byte_262898:
+		Kaneda: From the sewer?
+byte_2628A3:
+		Kaneda: It's her! The Army's
+		holding her at gunpoint! If I
+		somehow save her, maybe she'll
+		go out with me?
+byte_2628F3:
+		Kaneda: Um, mister? Isn't
+		violence wrong?
+byte_262916:
+		Kaneda: Damn, I got ignored!
+byte_262928:
+		Kaneda: Mwa ha ha! I'm the
+		actual Terrorist!
+byte_262943:
+		Dazed, I tapped her on the
+		shoulder.
+byte_26295F:
+		I crept along the shadows,
+		careful not to make a sound.
+byte_26298E:
+		One of the Army guys snuck up
+		behind me and put my gun
+		against my back.
+byte_2629CE:
+		Kaneda: Ok, I need to focus
+		and beat this Army guy.
+
+		I got ready to climb over
+		the fence...
+byte_262A13:
+		Smash!
+
+		I kicked the metal fence
+		on accident.
+byte_262A3B:
+		The guy turned around.
+
+		Kaneda: Shit!
+byte_262A53:
+		Kaneda: You're completely
+		surrounded. Drop your weapons
+		and let the girl go.
+byte_262A8A:
+		Kaneda: Er, ah... I just...
+byte_262A9B:
+		Kaneda: G-god?!
+byte_262AA5:
+		I sprung at the Army goon...
+
+
+		...and landed flat on my face
+		in front of him.
+byte_262AE0:
+		Kaneda: Better make a break
+		for it!
+
+		I dashed in front of the
+		Army jerk.
+byte_262B18:
+		Crunch.
+
+		His foot came down on my back
+		and stopped me.
+byte_262B4B:
+		I tried to avoid the
+		bullets...
+
+		But my foot slipped,
+		and I fell.
+byte_262B7E:
+		Kaneda: Hiiyaah!
+
+		I sprung at the Army guy.
+byte_262B9D:
+		I fell along with the Army
+		guy into the ditch. Through
+		the mud in my eyes, I saw
+		another one approach.
+
+		He walked toward me and
+		readied his gun!
+byte_262C17:
+		Girl: Stop it!
+byte_262C23:
+		But there were signs of more
+		Army goons around.
+
+		Kaneda: Let's go.
+byte_262C4F:
+		Kaneda: Hey! So, if we manage
+		to get away from these Army
+		guys, how about a date?
+byte_262C93:
+		I followed her, and we ended
+		up in the basement of an old
+		building.
+byte_262CC6:
+		Kaneda: We're still young and
+		I know we can rebuild our
+		relationship. So how about
+		we...
+byte_262D11:
+		Girl: Ryu!
+byte_262D19:
+		Kaneda: Hey, don't run off!
+		That must've been your first
+		time killing someone...
+byte_262D5A:
+		Kaneda: Once you calm down and
+		clear your mind, maybe we can
+		grab a bite to eat...
+byte_262D9D:
+		Kaneda: Don't stress over it.
+		What's done is done.
+		Can't change it.
+byte_262DD5:
+		Terrorist: Who're you?!
+
+		Ryu: Kei?!
+
+		Kei: Ryu, you're safe!
+byte_262DFE:
+		This man seems to be Ryu.
+byte_262E12:
+		They look like they've seen a
+		lot of blood.
+byte_262E39:
+		Terrorist: Who goes there!
+byte_262E4A:
+		So she's Kei... Ha, found out
+		her name. Don't know who her
+		friends are, but she seems to
+		know this old guy.
+byte_262EA7:
+		Terrorist: A spy?!
+byte_262EB3:
+		Kaneda: Actually, Kei was
+		trapped in the sewers by the
+		Army... I saved her. Don't I
+		deserve some thanks?
+byte_262EFD:
+		Kaneda: Me? Well... uh, how to
+		say this... I'm Kei's
+		boyfriend. Well, that might be
+		pushing it...
+byte_262F45:
+		Kaneda: Kei, who're these
+		scary old guys?
+byte_262F64:
+		Kei: It's true... There's no
+		way this guy's a spy.
+byte_262F88:
+		Kei: You don't know me!
+byte_262F9C:
+		It's the guy I saw on the
+		walkway.
+byte_262FB4:
+		Kaneda: Honestly? I'm an Army
+		spy sent to find out all your
+		plans...
+byte_262FE8:
+		This looks like the
+		Terrorists' base.
+byte_263001:
+		Girl: ...Ryu, where are you?
+byte_263013:
+		Kaneda: Ah, but... we haven't
+		had sex yet, y'know?
+byte_26303E:
+		They locked me in a
+		cramped room.
+byte_52000:
+		They locked me in a
+		cramped room.
+byte_5201E:
+		It's a bathroom.
+byte_5202C:
+		Jerks, what made you think
+		I'm a spy?!
+byte_5204E:
+		Kei, this time I'll definitely
+		ask you out.
+byte_52072:
+		Their attitude changed and
+		they blamed Kei. Maybe the
+		Terrorists' goals were set
+		too high...
+byte_520B6:
+		"Experimental Subject"? Where
+		the hell did they take Tetsuo?
+byte_520DF:
+		It's a bathtub.
+byte_520EC:
+		Kaneda: It's about Tetsuo!
+byte_520F9:
+		There's a network of
+		air ducts.
+byte_52116:
+		Kaneda: Beer! And it's cold!
+byte_5212C:
+		Kaneda: It's those jerks'
+		beer, so bottoms up!
+		Bottle opener...
+		...There's no opener...
+		Wonder if I can knock the
+		cap off...
+byte_52190:
+		Kaneda: This looks like a good
+		spot to open it! Ok now...
+byte_521BE:
+		Shpon! Gtang!
+
+		The vent opened!
+
+		Looks like I can get out
+		of here.
+byte_521FA:
+		Clink Clank
+
+		Kaneda: Hmm, looks like it
+		won't open here.
+byte_5222A:
+		I crawled into the air duct.
+byte_52243:
+		...I fell asleep.
+byte_52252:
+		It's a case of beer.
+byte_52264:
+		Kaneda: Jeez, there's nothing
+		in here.
+byte_5227D:
+		Kaneda: It looks cramped.
+byte_52290:
+		Kaneda: I've made it to the
+		vent in the next room...
+byte_522B7:
+		I hear voices. It's Ryu and
+		the Terrorists...
+byte_522D3:
+		I can get out this way.
+byte_522E7:
+		Water's dripping from
+		the ceiling.
+byte_52305:
+		Kei, you should join me in
+		here next time! Rawr.
+byte_52330:
+		Thud!
+
+		Kaneda: Damn!
+byte_5233C:
+		Terrorist: Who goes there!?
+byte_5234C:
+		Is there a way to hear
+		their conversation?
+byte_52370:
+		.
+byte_52372:
+		They pulled me out of the
+		air duct.
+byte_52390:
+		Kaneda: Ow, ow, ow! What're
+		you doing that for?
+byte_523B0:
+		Kei: Kaneda...
+byte_523B5:
+		Kaneda: Wait a sec... Please!
+		Listen to what I have to say.
+byte_523E2:
+		Kei: He saved my life!
+
+		Kaneda: Twice!
+
+		Ryu: That could've been just
+		to spy on us.
+byte_52427:
+		Kaneda: My friend was in that
+		incident in the Old Town! You
+		probably don't believe me, but
+		it's true. I was with him!
+		I saw the whole thing!
+byte_52499:
+		Kaneda: Please take me with
+		you to the lab.
+byte_524B8:
+		Kaneda: It's a little
+		embarrassing to ask...
+byte_524D6:
+		Ryu: What?! You know about
+		that?
+byte_524F2:
+		Kei saved me with but a single
+		word, and took me to their
+		room. They were having some
+		kind of discussion.
+byte_52547:
+		Ryu: Right, you come with us.
+		Here's the pass to the lab.
+byte_52572:
+		Knowing Kei, she didn't tell
+		them about us.
+byte_5259A:
+		Kaneda: They're talking about
+		Tetsuo.
+byte_525B1:
+		The wrinkly kid that night?
+		That was from being an
+		experiment? If Tetsuo's at the
+		lab too, then...
+byte_525F9:
+		I'm coming, Tetsuo!
+byte_52605:
+		Terrorist: The Army seems to
+		be working to protect human
+		experimentation.
+byte_5263E:
+		Terrorist: We should be able
+		to sneak into the lab using
+		that pass.
+byte_52673:
+		Terrorist: People don't
+		know what their high taxes are
+		used for. If we found proof
+		they're putting it toward
+		these labs...
+byte_526D8:
+		Terrorist: You little shit!
+		You really are a spy!
+byte_52701:
+		Kei: How did you even have
+		a camera?
+byte_52723:
+		DP
+byte_52725:
+		The next day, we snuck into
+		the lab through what appeared
+		to be the drainage system...
+byte_5276F:
+		Kaneda: Man, this stinks!
+
+		Kei: Shh, quiet!
+byte_5278D:
+		Kaneda: What? I'm saying it
+		stinks, because it does! Your
+		smell must be off.
+byte_527CF:
+		Terrorist: Up ahead is the
+		central wiring system. If
+		we're able to block it, we
+		should be able to sneak into
+		the basement.
+byte_52838:
+		Ryu: Damn! They've spotted
+		us!
+
+		Terrorist: They're F.P.H.s!
+byte_52860:
+		One of the Terrorists was hit!
+byte_52872:
+		Kei: Do it quickly and
+		quietly!
+byte_5288D:
+		I picked up the dead
+		Terrorist's gun.
+byte_528A5:
+		But the gun on the
+		F.P.H. swiveled toward me.
+		Vulcanized bullets drove into
+		the mud.
+byte_528EF:
+		Kaneda: Huh? It's out of ammo!
+byte_52905:
+		Kaneda: Damn!
+
+		I threw the gun away.
+byte_5291D:
+		Kaneda: Ugh...
+
+		-cough- -cough-
+
+		I laid in the mud.
+byte_52945:
+		Splash!
+
+		I sprung out of the water and
+		climbed onto the wall of the
+		sewer.
+byte_5297F:
+		Kaneda: It's coming!
+byte_52989:
+		Kaneda: Hiiyaah!
+
+		I leapt toward the F.P.H.
+byte_529AB:
+		Kaneda: Wah.
+
+		Kei: Aaah.
+byte_529BB:
+		I grabbed the F.P.H., and
+		after a lot of struggling,
+		I managed to get onto it.
+byte_529FA:
+		Kei: Aaah!
+
+		Kaneda: Kei! Over here, get
+		on quick!
+byte_52A1E:
+		Kei: Kaneda! They're behind
+		us!
+byte_52A34:
+		A Button: Fire
+		B Button: Dodge
+		Select: Turn around
+byte_52A5B:
+		I stole the F.P.H., and with
+		Kei on board, fled to the lab.
+
+		Kaneda: Great, we finally
+		made it.
+byte_52AA6:
+		Kei: The Army's here!
+
+		Kaneda: Let's blow them out
+		of the way!
+byte_52ACD:
+		Radio: -bz- -gzzt-
+		give heavy weapons license
+		-bz-
+		Captain.
+
+		Seems I accidentally turned
+		on the radio.
+byte_52B2C:
+		Radio: -bzt-
+		that boy must have been a
+		patient in the hospital wing
+		of the lab.
+byte_52B71:
+		Kaneda: Where's Tetsuo?!
+
+		Kei: Quiet! Turn up the
+		volume!
+byte_52B97:
+		Radio: -gzzt-
+		escaped from his cell.
+		-bzt-
+		Tetsuo Shima.
+byte_52BC7:
+		Radio: He's headed for the
+		Nursery, you
+		-gzt-
+
+		Kaneda: Tetsuo?!
+byte_52BEC:
+		Radio: -gzt-
+		situation is extremely
+		dangerous! Permission to kill!
+		Repeat, permission to kill!
+byte_52C43:
+		Kei: The Nursery is over that
+		way.
+
+		Kaneda: What?
+
+		Kei: Turn that way!
+byte_52C70:
+		Kaneda: Room A?
+
+		Kei: What're you doing, that's
+		the Nursery!
+
+		Kaneda: I can't stop!
+byte_52CA5:
+		Kei: The brakes! Don't you
+		understand brakes?!
+
+		Kaneda: I don't have my
+		license with me today!
+byte_52CEF:
+		Kaneda: Where the hell do we
+		go from here?
+
+		Kei: Straight ahead... or...
+		That way...
+
+		Kaneda: Er...
+byte_52D30:
+		Kiyoko: There's an entry
+		elevator. Use it to go down
+		to sublevel 8.
+byte_52D67:
+		We eventually made it all the
+		way to sublevel 8.
+byte_52D93:
+		A Button: Fire
+		B Button: Dodge
+byte_52DAA:
+		Kaneda: Outta the way!
+byte_52DB8:
+		G $01
+byte_52DBA:
+		Fwsh! Crunch!
+
+		Kaneda: Owwww.
+byte_52DD2:
+		We made it into Room A.
+		The F.P.H. exploded, and we
+		were thrown onto the floor.
+byte_52E14:
+		Inside were a few wrinkly
+		kids, some Army jerks, and...
+		Tetsuo.
+byte_52E44:
+		The Nursery looked like it'd
+		been through an earthquake.
+
+		Kaneda: Hey, you think it's
+		MY fault?!
+byte_52E93:
+		Kaneda: So this is the
+		Nursery?
+byte_52EA1:
+		It's the kid from before!
+byte_52EB0:
+		The kid's friends?
+byte_52EC0:
+		Colonel: Get these kids out
+		of here now!
+byte_52EDD:
+		Tetsuo: Kaneda?
+		...Why are you here?
+byte_52EEF:
+		Kaneda: Tetsuo, you ok?
+		I came to save you!
+byte_52F09:
+		Tetsuo: It's ok, Kaneda.
+		You don't need to save me
+		anymore. From now on, I'll be
+		the one saving you...
+byte_52F57:
+		Tetsuo: Kaneda, what're you
+		yapping about now?
+byte_52F75:
+		Tetsuo: What're you doing?!
+
+		Kaneda: Ugh... Augh!
+
+		Boom!
+byte_52F9E:
+		Kaneda fainted...
+
+		Kei: Kaneda...
+byte_52FAE:
+		Tetsuo: Buried... beneath the
+		Olympic Grounds?!
+
+		Kiyoko: No! Akira's...
+		Wait! Aah!
+byte_52FEA:
+		Tetsuo destroyed the ceiling
+		of the Nursery and flew out,
+		leaving only his echoing
+		laughter behind.
+byte_53031:
+		Kiyoko: This is horrible!
+		To think he's that strong...
+byte_5305C:
+		Colonel: To gain so much
+		power in so little time! What
+		could this mean... Find him!
+byte_530A4:
+		Kiyoko: Stop it... Don't
+		hurt any more people...
+
+		Tetsuo: Where is Akira?!
+
+		Kiyoko: Well...
+byte_530E5:
+		Kei looked over at the kids,
+		staring blankly.
+byte_5310B:
+		Kaneda: Heh, it's a dead rat.
+		Must have picked it up when I
+		dove into the sewer drain.
+byte_53154:
+		Colonel: Hey, kid! How did you
+		get your hands on that?!
+byte_5317C:
+		Colonel: What're you doing?
+		Hurry up and capture him!
+byte_531A3:
+		Colonel: Hey, kid! How did you
+		get this far?!
+byte_531C5:
+		I tried to talk to the kid...
+byte_531DB:
+		But the kid wouldn't talk.
+byte_531F1:
+		But the kid only stared at
+		Kei, refusing to answer.
+
+		Kei: You are...
+byte_53221:
+		Kiyoko: That's right.
+byte_5322D:
+		Kaneda: Hurry up and do it,
+		idiot!
+byte_5324A:
+		Kaneda: What? Who's
+		listening to you, anyway?
+byte_5326B:
+		Tetsuo: Heh... So you don't
+		feel like listening...
+		Are you mad? So what'll you do
+		then, Kaneda?
+byte_532B3:
+		Tetsuo: What's this? Is this
+		power really mine?!
+byte_532D5:
+		Colonel: Destroy him!
+byte_532E6:
+		Colonel: He's headed West
+		toward the Olympic Grounds!
+		Mobilize all units to observe
+		him. We're going to catch him!
+
+
+
+		.WORDscene10_msg_lib
+		.WORDscene11_msg_lib
+		.WORDscene12_msg_lib
+		.WORDscene13_msg_lib
+		.WORDscene14_msg_lib
+scene10_msg_lib:
+		.WORD byte_27A1AB
+		.WORD byte_27A1DB
+		.WORD byte_27A20B
+		.WORD byte_27A237
+		.WORD byte_27A256
+		.WORD byte_27A27A
+		.WORD byte_27A2DC
+		.WORD byte_27A302
+		.WORD byte_27A35F
+		.WORD byte_27A3B7
+		.WORD byte_27A41E
+		.WORD byte_27A499
+		.WORD byte_27A4AF
+		.WORD byte_27A51E
+		.WORD byte_27A57A
+		.WORD byte_27A5E0
+		.WORD byte_27A612
+		.WORD byte_27A644
+		.WORD byte_27A6A7
+		.WORD byte_27A6D6
+		.WORD byte_27A6E3
+		.WORD byte_27A6FA
+		.WORD byte_27A70C
+		.WORD byte_27A721
+		.WORD byte_27A76C
+		.WORD byte_27A783
+		.WORD byte_27A7A8
+		.WORD byte_27A7D4
+		.WORD byte_27A7F8
+		.WORD byte_27A7F8
+		.WORD byte_27A7F8
+		.WORD byte_27A7F8
+scene11_msg_lib:
+		.WORD byte_27A7F8
+		.WORD byte_27A81D
+		.WORD byte_27A83A
+		.WORD byte_27A8A1
+		.WORD byte_27A8DC
+		.WORD byte_27A929
+		.WORD byte_27A97A
+		.WORD byte_27A9CF
+		.WORD byte_27AA2F
+		.WORD byte_27AA56
+		.WORD byte_27AA7B
+		.WORD byte_27AA95
+		.WORD byte_27AAB4
+		.WORD byte_27AAF2
+		.WORD byte_27AB14
+		.WORD byte_27AB25
+		.WORD byte_27AB4D
+		.WORD byte_27AB60
+		.WORD byte_27AB97
+		.WORD byte_27ABA2
+		.WORD byte_27ABB0
+		.WORD byte_27ABD1
+		.WORD byte_27ABEE
+		.WORD byte_27ABFE
+		.WORD byte_27AC4D
+		.WORD byte_27AC84
+		.WORD byte_27ACEC
+		.WORD byte_27AD16
+		.WORD byte_27AD37
+		.WORD byte_27AD7B
+		.WORD byte_27AD91
+		.WORD byte_27ADCC
+		.WORD byte_27AE0D
+		.WORD byte_27AE17
+		.WORD byte_27AE40
+		.WORD byte_27AE69
+		.WORD byte_27AE84
+		.WORD byte_27AEA9
+		.WORD byte_27AEB3
+		.WORD byte_27AF2D
+		.WORD byte_27AF46
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+		.WORD byte_27AF77
+scene12_msg_lib:
+		.WORD byte_27AF77
+		.WORD byte_27AFCB
+		.WORD byte_27B045
+		.WORD byte_27B0A4
+		.WORD byte_27B129
+		.WORD byte_27B181
+		.WORD byte_27B1C2
+		.WORD byte_27B1E8
+		.WORD byte_27B206
+		.WORD byte_27B257
+		.WORD byte_27B272
+		.WORD byte_27B2B3
+		.WORD byte_27B328
+		.WORD byte_27B37D
+		.WORD byte_27B399
+		.WORD byte_27B3B9
+		.WORD byte_27B3D1
+		.WORD byte_27B3F7
+		.WORD byte_27B433
+		.WORD byte_27B467
+		.WORD byte_27B483
+		.WORD byte_27B4B1
+		.WORD byte_27B4F8
+		.WORD byte_27B518
+		.WORD byte_27B55C
+		.WORD byte_27B59D
+		.WORD byte_27B5C5
+		.WORD byte_27B617
+		.WORD byte_27B6A9
+		.WORD byte_27B6D4
+		.WORD byte_27B70A
+		.WORD byte_27B723
+		.WORD byte_27B746
+		.WORD byte_27B7AA
+		.WORD byte_27B7E4
+		.WORD byte_27B7ED
+		.WORD byte_27B817
+		.WORD byte_27B83F
+		.WORD byte_27B852
+		.WORD byte_27B87D
+		.WORD byte_27B8A1
+		.WORD byte_27B8DA
+		.WORD byte_27B8FB
+		.WORD byte_27B93F
+		.WORD byte_27B977
+		.WORD byte_27B9A0
+		.WORD byte_27B9A6
+		.WORD byte_27B9C4
+scene13_msg_lib:
+		.WORD byte_6A000
+		.WORD byte_6A034
+		.WORD byte_6A098
+		.WORD byte_6A0E4
+		.WORD byte_6A15E
+		.WORD byte_6A1B1
+		.WORD byte_6A1CD
+		.WORD byte_6A1F4
+		.WORD byte_6A21C
+		.WORD byte_6A257
+		.WORD byte_6A28D
+		.WORD byte_6A2B1
+		.WORD byte_6A2F4
+		.WORD byte_6A347
+		.WORD byte_6A368
+		.WORD byte_6A389
+		.WORD byte_6A3B8
+		.WORD byte_6A3F6
+		.WORD byte_6A422
+		.WORD byte_6A45B
+		.WORD byte_6A47A
+		.WORD byte_6A4B3
+		.WORD byte_6A4F0
+		.WORD byte_6A548
+		.WORD byte_6A55A
+		.WORD byte_6A581
+		.WORD byte_6A5C5
+		.WORD byte_6A5FD
+		.WORD byte_6A631
+		.WORD byte_6A65D
+		.WORD byte_6A665
+		.WORD byte_6A692
+		.WORD byte_6A6BD
+		.WORD byte_6A6D8
+		.WORD byte_6A6F5
+		.WORD byte_6A739
+		.WORD byte_6A75F
+		.WORD byte_6A788
+		.WORD byte_6A79B
+		.WORD byte_6A7BC
+		.WORD byte_6A7E2
+		.WORD byte_6A7F3
+		.WORD byte_6A817
+		.WORD byte_6A85B
+		.WORD byte_6A893
+		.WORD byte_6A8BE
+		.WORD byte_6A915
+		.WORD byte_6A974
+scene14_msg_lib:
+		.WORD byte_6A974
+		.WORD byte_6A9B3
+		.WORD byte_6A9F3
+		.WORD byte_6AA32
+		.WORD byte_6AA91
+		.WORD byte_6AAD2
+		.WORD byte_6AB26
+		.WORD byte_6AB69
+		.WORD byte_6ABA4
+		.WORD byte_6ABE0
+		.WORD byte_6AC0E
+		.WORD byte_6AC36
+		.WORD byte_6AC5D
+		.WORD byte_6ACC6
+		.WORD byte_6ACF4
+		.WORD byte_6AD21
+		.WORD byte_6AD6B
+		.WORD byte_6AD8C
+		.WORD byte_6AD9E
+		.WORD byte_6ADB3
+		.WORD byte_6ADE4
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+		.WORDunused dummy
+byte_27A1AB:
+		Kaneda: Hm, looks like the
+		lab's confinement room.
+		Where's Kei?
+byte_27A1DB:
+		Kei: Very observant.
+		How do you feel?
+
+		Kaneda: Terrible.
+byte_27A20B:
+		Kei: After all, you're
+		nothing but a burden to us!
+byte_27A237:
+		Kei: It doesn't look
+		breakable...
+byte_27A256:
+		Kaneda: Damn you assholes!
+		Locking me up like this!
+byte_27A27A:
+		Kaneda: The Army's looking for
+		this Akira guy, too...
+
+		Kei: The Army's afraid of him.
+		Looks like they've locked away
+		his power somehow.
+byte_27A2DC:
+		Kaneda: He's gone to Akira...?
+
+		Kei: That's what the
+		kid said...
+byte_27A302:
+		Kei: Our boss, Mr. Nezu, said
+		Akira is our trump card. We
+		can bring down the corrupt
+		government with him...
+byte_27A35F:
+		Kei: Ryu told me Akira is pure
+		energy... Throughout their
+		history, humans have done a
+		lot of things, right?
+byte_27A3B7:
+		Kei: Exploring, creating...
+		All that knowledge and energy.
+		Where does it come from?
+		Surely we were just like
+		monkeys once...
+byte_27A41E:
+		Kei: And before that,
+		reptiles and fish. Even
+		earlier, plankton and
+		amoebas... Isn't there an
+		incredible energy inside all
+		these forms of life?
+byte_27A499:
+		Kaneda: It's because of
+		genes...
+byte_27A4AF:
+		Kei: I wonder what memories
+		they might be hiding. The
+		beginning of existence, the
+		times even before it...
+		Everyone might hold these
+		very memories...
+byte_27A51E:
+		Kei: Imagine if there was a
+		mistake in the order of life,
+		and an amoeba obtained the
+		power of a human being...
+byte_27A57A:
+		Kei: This amoeba wouldn't
+		worry about a house, or
+		clothes... it would simply
+		consume all of its
+		surroundings.
+byte_27A5E0:
+		You mean what destroyed this
+		Nursery was Tetsuo's energy?!
+		His power?
+byte_27A612:
+		If we don't find Akira before
+		Tetsuo does, we're in big
+		trouble!
+byte_27A644:
+		Kei: A long time ago, there
+		were people who aimed to
+		control that power... The
+		government started a research
+		center...
+byte_27A6A7:
+		Kei: But they failed, and
+		awakened the destruction of
+		Tokyo.
+byte_27A6D6:
+		Kaneda: Oh, the door!
+byte_27A6E3:
+		Kei and I escaped from the
+		lab.
+byte_27A6FA:
+		Kei: What're you doing?!
+byte_27A70C:
+		How can I open the door?
+byte_27A721:
+		Kei: I wonder, even before
+		that, if water and air had
+		genes... Or even the dust from
+		space.
+byte_27A76C:
+		Kaneda: So that's what Akira
+		is like?
+byte_27A783:
+		Kaneda: Tetsuo? He can wield
+		that kind of power?!
+byte_27A7A8:
+		Kei suddenly began speaking in
+		a strange voice.
+byte_27A7D4:
+		Kei: We still lack that kind
+		of power...
+byte_27A7F8:
+		Leaving the lab, Kei and I
+		went to the hangout.
+byte_27A81D:
+		We went with Kai to the
+		river bank.
+byte_27A83A:
+		Kai: I went to the usual
+		hangout with Yamagata. That's
+		when we found it... The inside
+		of the bar was trashed, and
+		the owner was dead...
+byte_27A8A1:
+		Kai: That bastard Tetsuo just
+		sat there in the rubble,
+		laughing his ass off!
+byte_27A8DC:
+		Kai: He was laughing like
+		nothing happened! And he
+		really wanted to know where
+		your bike was.
+byte_27A929:
+		Kai: So Yamagata yelled at
+		him, climbing into the pile of
+		rubble. But then Tetsuo's hair
+		stood up on end...
+byte_27A97A:
+		Kai: Tetsuo used some kind of
+		weird power to hold Yamagata.
+		He cried out in pain... and
+		Tetsuo crushed his skull.
+byte_27A9CF:
+		Kaneda: We've always been
+		together. I know everything
+		about him.
+		...And I've always felt sorry
+		for his screw-ups...
+byte_27AA2F:
+		Kai: That's right... He took
+		your bike someplace.
+byte_27AA56:
+		I got onto Yamagata's bike,
+		which Kai had brought.
+byte_27AA7B:
+		Kiyoko: We want you to
+		help us.
+byte_27AA95:
+		Why is Kei involved with
+		those kids...
+byte_27AAB4:
+		Kaneda: That's enough. Calling
+		in people to attack Tetsuo is
+		just sending them to die...
+byte_27AAF2:
+		Kei: You... are... Aah!
+
+		Kaneda: Kei, what happened?!
+byte_27AB14:
+		Kaneda: You're... from
+		that night...
+byte_27AB25:
+		The kid emerged from the water
+		and approached Kei.
+byte_27AB4D:
+		Kaneda: What're you doing
+		to Kei?!
+byte_27AB60:
+		I wanted to run up to him,
+		but somehow my body refused
+		to move.
+byte_27AB97:
+		Kaneda: Wait! Kei!
+byte_27ABA2:
+		Kai: They vanished.
+byte_27ABB0:
+		Kaneda: That son of a bitch,
+		where'd he go?
+byte_27ABD1:
+		Kei and the kid had both
+		disappeared.
+byte_27ABEE:
+		The water was calm...
+byte_27ABFE:
+		Kaneda: It's all your fault
+		that Tetsuo changed!
+
+		I began down the slope, but
+		suddenly heard a voice.
+byte_27AC4D:
+		Kiyoko: The power in Akira can
+		exist in anyone...
+
+		Kaneda: Huh? Who's that?!
+byte_27AC84:
+		Kiyoko: But when that power
+		awakens... Without any
+		warning, one must decide how
+		to use it... That person has
+		made his choice.
+byte_27ACEC:
+		Kiyoko: Tetsuo is our
+		newest member...
+		He's one of us...
+byte_27AD16:
+		Kaneda: So why in the hell did
+		you take Kei?!
+byte_27AD37:
+		Kaneda: Bring Kei back!
+		Tetsuo's NOT one of you!
+		He's my friend! I'll deal with
+		him myself!
+byte_27AD7B:
+		Damn that Tetsuo,
+		where'd he go?!
+byte_27AD91:
+		This is for Yamagata. Just you
+		wait, along with my bike that
+		you wanted so much...
+byte_27ADCC:
+		But, Kai was standing just
+		outside of the hangout. He was
+		frightened about something...
+byte_27AE0D:
+		Kaneda: What? Yamagata...?
+byte_27AE17:
+		Kaneda: My bike...?
+		Kai, could you bring
+		Yamagata's bike for me?
+byte_27AE40:
+		Kai: What're you doing?
+
+		Kaneda: I'm going to take
+		this to him...
+byte_27AE69:
+		I jumped off and started
+		running.
+byte_27AE84:
+		I heard Kei scream somewhere
+		underground.
+byte_27AEA9:
+		Kaneda: Dammit!
+byte_27AEB3:
+		Kai: When I saw him, I knew
+		something was wrong. He was
+		wearing some kind of hospital
+		gown. Yamagata had also heard
+		you were gonna go and rescue
+		him.
+byte_27AF2D:
+		Kai: Right after that,
+		Yamaga---
+byte_27AF46:
+		Kiyoko: What that person knows
+		is also our responsibility...
+byte_27AF77:
+		As I walked past an
+		electronics store, the TV was
+		showing Army helicopters and a
+		reporter was talking.
+byte_27AFCB:
+		Reporter: What could be
+		happening to Neo-Tokyo? From
+		these images, we see what
+		appears to be a host of
+		military vehicles and a fire.
+byte_27B045:
+		Reporter: And... who could
+		this young man be? Is he
+		fighting against the
+		coup d'etat's troops all by
+		himself?
+byte_27B0A4:
+		Reporter: Listeners, try to
+		be stronger than these
+		soldiers, who are following
+		unjust orders to shut us down.
+		They are trampling the freedom
+		of the press!
+byte_27B129:
+		It's the bridge, he's crossing
+		the bridge.
+
+		       The Army's here too.
+
+		They're headed for the Olympic
+		Grounds!
+byte_27B181:
+		Stunned onlookers were
+		speaking amongst themselves,
+		walking off in groups.
+byte_27B1C2:
+		I came to the bike storage
+		area at school.
+byte_27B1E8:
+		Kai: You're really gonna go
+		by yourself?
+byte_27B206:
+		Kai: Kaneda, where are you
+		even going? I know you want to
+		avenge Yamagata, but we don't
+		even know where Tetsuo is!
+byte_27B257:
+		I headed for the Olympic
+		Grounds.
+byte_27B272:
+		Along the highway, I saw ruins
+		of Army tanks that had been
+		demolished by Tetsuo.
+byte_27B2B3:
+		Radio: The subject has arrived
+		2 miles south of the Olympic
+		Construction Site! Our forces
+		have been almost completely
+		wiped out...
+byte_27B328:
+		Looks like it was destroyed by
+		Tetsuo's shock wave. Corpses
+		littered the ground where it
+		had rolled.
+byte_27B37D:
+		It's an infantry-model laser
+		beam.
+byte_27B399:
+		Kaneda: With this thing,
+		I bet I can beat Tetsuo!
+byte_27B3B9:
+		It's a destroyed laser
+		brigade.
+byte_27B3D1:
+		The Olympic Grounds are just
+		a bit further.
+byte_27B3F7:
+		Along one side of the Olympic
+		Grounds is a secret entrance
+		for the Army.
+byte_27B433:
+		Above that giant frozen
+		capsule, Tetsuo and Kei were
+		facing off.
+byte_27B467:
+		Tetsuo: You were the one who
+		came with Kaneda...
+byte_27B483:
+		Kei: I won't be able to
+		contain his power much
+		longer...
+byte_27B4B1:
+		In the cold winds, the two
+		unleashed shock waves!
+
+		Sparks flew off both of them.
+byte_27B4F8:
+		The aura around Kei vanished,
+		and she fell.
+byte_27B518:
+		We could see the contents of
+		the capsule. Inside it were
+		spheres rolling around.
+byte_27B55C:
+		Tetsuo's shock wave caused a
+		sample case to fall out of a
+		sphere.
+
+		Tetsuo: What's this?
+byte_27B59D:
+		Colonel: That is Akira...
+		The very same Akira you wanted
+		to meet!
+byte_27B5C5:
+		Colonel: After he awakened, we
+		took his body and ran every
+		conceivable test and
+		experiment on it.
+byte_27B617:
+		Colonel: The scientists
+		involved in this enigma
+		enclosed all data they
+		gathered, along with samples,
+		and entrusted them to future
+		generations by preserving them
+		in cryogenic capsules.
+byte_27B6A9:
+		Colonel: Akira is already
+		dead. Are you satisfied,
+		Tetsuo?!
+byte_27B6D4:
+		Tetsuo: Shut up! This isn't
+		the time for your
+		science bullshit!
+byte_27B70A:
+		Colonel: Now, come back
+		with us!
+byte_27B723:
+		I stopped my bike, and looked
+		over the area.
+byte_27B746:
+		Armored vehicles were along
+		one side of the stadium, and
+		their commander's voice echoed
+		through the area via a
+		megaphone.
+byte_27B7AA:
+		I held the laser beam at my
+		side, and pressed the power
+		switch on the bike.
+byte_27B7E4:
+		Tetsuo: Die!
+byte_27B7ED:
+		While watching my side, I made
+		my way forward.
+byte_27B817:
+		Kai: Better wait and see what
+		happens.
+		Hey, Kaneda...
+byte_27B83F:
+		Kaneda: I bet he wants this...
+byte_27B852:
+		A suspiciously large capsule
+		came into view.
+byte_27B87D:
+		Kei was the one who had
+		stopped the shock wave.
+byte_27B8A1:
+		Before long, one of the
+		capsules cracked and began
+		leaking cold air.
+byte_27B8DA:
+		Colonel: ...all that's left
+		of him is in there.
+byte_27B8FB:
+		Near the setting sun, a
+		glistening star could be seen.
+
+		Army: The SOL satellite...
+byte_27B93F:
+		Colonel: Tetsuo destroyed the
+		SOL satellite... He's that
+		powerful already?
+byte_27B977:
+		Kei: The kind of power you
+		have mustn't be used!
+byte_27B9A0:
+		Tetsuo: What?
+byte_27B9A6:
+		Tetsuo: Damn kids... you're
+		all just kids...
+byte_27B9C4:
+		I climbed the mountain of
+		rubble, and found Tetsuo.
+
+		Tetsuo: Ahaha...
+byte_6A000:
+		I climbed the mountain of
+		rubble, and found Tetsuo.
+
+		Tetsuo: Ahaha...
+byte_6A034:
+		Kaneda: Is there some kind
+		of trouble here?
+
+		Tetsuo: Ahh... it's all
+		finished now. There might be a
+		bit more soon, though.
+byte_6A098:
+		Kaneda: I was still worried
+		about you... Thought you might
+		get in trouble and cry like a
+		baby.
+byte_6A0E4:
+		Tetsuo: Kaneda... Man, have
+		you been a pain. Ever since we
+		were kids, you've been
+		ordering me around. Always
+		telling me what to do. Being
+		the boss all the time.
+byte_6A15E:
+		Kaneda: Now it looks like
+		you've become a boss, too. The
+		boss of this pile of trash!
+
+		Tetsuo: Kaneda...!
+byte_6A1B1:
+		The laser I fired hit the
+		sample case.
+byte_6A1CD:
+		As I fired, I tripped on a
+		piece of rubble.
+byte_6A1F4:
+		Kaneda jumped at Tetsuo, but
+		was hit by the shock wave...
+byte_6A21C:
+		Tetsuo: It's not so bad this
+		way...
+		Kaneda...
+		Now I understand the meaning
+		of regret...
+byte_6A257:
+		Then, as Tetsuo was getting
+		back up, his right arm was
+		severed by the beam.
+byte_6A28D:
+		Bssh!
+
+		Tetsuo suddenly set up a
+		barrier.
+byte_6A2B1:
+		Tetsuo jumped up, leaving the
+		atmosphere. Tetsuo had left to
+		destroy the SOL satellite.
+byte_6A2F4:
+		Kaneda: Got 'im... But he was
+		able to put up that barrier,
+		so he must still have some
+		life in him...
+byte_6A347:
+		I fired the laser, but it
+		didn't reach Tetsuo...
+byte_6A368:
+		Kaneda: Huh? It's dead?!
+
+		Tetsuo: What's wrong,
+		Kaneda...?
+byte_6A389:
+		Kaneda: Dammit! That's dirty,
+		Tetsuo! Let's have a fair
+		fight!
+byte_6A3B8:
+		Tetsuo's surroundings began to
+		glow, and gradually shone
+		brightly.
+
+		Kaneda: Huh...?
+byte_6A3F6:
+		It was the laser beam fired
+		from SOL on the orders of the
+		Colonel.
+byte_6A422:
+		Confused, I began to run away.
+		The rubble around me shook
+		violently.
+byte_6A45B:
+		Tetsuo drew up the mountain of
+		rubble.
+byte_6A47A:
+		Kaneda: Whoa, Tetsuo...
+
+		I lifted one of the rocks and
+		threw it at Tetsuo.
+
+		Kaneda: Unf!
+byte_6A4B3:
+		Again, the light began to
+		gather. Everything in view
+		shone a bright white.
+byte_6A4F0:
+		When I opened my eyes, rubble
+		was floating in the air.
+		Tetsuo had set up a barrier,
+		and dispersed the beam.
+byte_6A548:
+		Tetsuo: Damn...
+
+		Kaneda: What is it?
+byte_6A55A:
+		Kaneda: Ow.
+
+		The barrier of rubble had
+		fallen.
+byte_6A581:
+		Zap! Fssht!
+
+		But before I even noticed, the
+		rubble had been destroyed by
+		a beam.
+byte_6A5C5:
+		The beam had come incredibly
+		close already.
+
+		Kaneda: Save me, Kei!
+byte_6A5FD:
+		Through the sound of the
+		explosion, I could hear
+		Kai's scream.
+byte_6A631:
+		Kei was on Kai's bike and
+		they came up in front of me.
+byte_6A65D:
+		Kaneda: Kai! Kei!
+byte_6A665:
+		Kaneda: There's no room...
+
+		Kei: Come on, quick!
+
+		Kaneda: Uh, Ok...
+byte_6A692:
+		Kaneda: Hey, watch it! It's
+		rocky around here!
+
+		Tetsuo: Die...
+byte_6A6BD:
+		I ducked in between the
+		rubble.
+byte_6A6D8:
+		Zap!
+
+		The beam hit Kaneda directly.
+byte_6A6F5:
+		Kaneda: Wonder how far it'll
+		come?
+
+		I looked over at the beam to
+		figure it out.
+byte_6A739:
+		Kaneda: Augh!
+
+		I screamed as the beam
+		approached.
+byte_6A75F:
+		Suddenly, the sample case
+		released a bright light.
+byte_6A788:
+		Kaneda: Kei, want to go out?
+byte_6A79B:
+		Kai and Kei noticed me.
+
+		Kei: Kaneda!
+
+		Kai: Hop on!
+byte_6A7BC:
+		Kaneda: Augh!
+
+		I ran my way through the
+		rubble.
+byte_6A7E2:
+		Tetsuo: Huh? What's this
+		light?
+byte_6A7F3:
+		The pile of rubble was hit by
+		the beam.
+byte_6A817:
+		Near the setting sun, a
+		glistening star could be seen.
+
+		Army: The SOL satellite...
+byte_6A85B:
+		Colonel: Tetsuo destroyed the
+		SOL satellite... He's that
+		powerful already?
+byte_6A893:
+		Shwoo...
+
+		The beam swept over us, then
+		disappeared.
+byte_6A8BE:
+		Takashi: When Tetsuo's
+		strength has reached its
+		peak...
+
+		Masaru: Then we will try...
+		but I wonder if it will
+		work...
+byte_6A915:
+		Kiyoko: There is not only one
+		path to the future... Surely
+		there is a future that we can
+		choose to work towards.
+byte_6A974:
+		We took a brief break near the
+		tollbooth on the highway. It
+		was already nighttime...
+byte_6A9B3:
+		Kaneda: The stars up there are
+		really pretty!
+
+		Kei: What're you babbling
+		about now?
+byte_6A9F3:
+		Kaneda: Damn, just when this
+		laser beam was becoming
+		useful, it went and broke on
+		me.
+byte_6AA32:
+		Kei: I think I fainted...
+		When I woke up, I was covered
+		in dust...
+
+		Kaneda: I bet it was those
+		damn kids controlling you.
+byte_6AA91:
+		Kei: I didn't even remember
+		anything, though. If Kai
+		hadn't come along...
+byte_6AAD2:
+		Kei: You don't even stand
+		a chance!
+
+		Kaneda: It's no use. I'm gonna
+		take care of Tetsuo with my
+		own two hands!
+byte_6AB26:
+		Kei: That was dangerous back
+		there! When you fell, I
+		thought it was all over.
+byte_6AB69:
+		Kai: When did he get so
+		powerful...
+		Kaneda, are you sure you can
+		avenge Yamagata?
+byte_6ABA4:
+		Kai: I had to save you guys,
+		'cause it was dangerous.
+
+		Kaneda: Ok, I get it.
+byte_6ABE0:
+		Kai: Isn't there a way you can
+		recharge the laser using the
+		bike?
+byte_6AC0E:
+		Kai: If you want to recharge
+		it, leave it to me!
+byte_6AC36:
+		Kai: ...Ugh. Damn it all!
+
+		Kaneda: Battery, battery.
+byte_6AC5D:
+		Kaneda: What, should we do it
+		with one or two of 'em?
+
+		Kai: Wouldn't it be better to
+		just use my bike if you're not
+		sure?
+byte_6ACC6:
+		Kaneda: Ah, the bike's already
+		running...
+
+		Kai: Pfft...
+
+		Kaneda: Haha...
+byte_6ACF4:
+		I bet Tetsuo's back to playing
+		"King of the Mountain" again.
+byte_6AD21:
+		Kei, who had watched us get
+		that far, slowly opened her
+		mouth.
+
+		Kei: Here, take this...
+byte_6AD6B:
+		I went back to the Olympic
+		Grounds.
+byte_6AD8C:
+		Kei watched the flames.
+byte_6AD9E:
+		Kai: My bike's burning up!
+byte_6ADB3:
+		Kaneda: Oh, you heard that...
+
+		Kai: I've been listening for
+		a while.
+byte_6ADE4:
+		Kei handed me a mirror. It
+		seemed to sparkle in the dark
+		of night.
+ unused dummy:
+
+
+		.WORDscene15_msg_lib
+		.WORDscene16_msg_lib
+		.WORDscene17_msg_lib
+scene15_msg_lib:
+		.WORD byte_2921E7
+		.WORD byte_29221F
+		.WORD byte_292231
+		.WORD byte_292275
+		.WORD byte_29229A
+		.WORD byte_2922D5
+		.WORD byte_292306
+		.WORD byte_29233C
+		.WORD byte_292363
+		.WORD byte_29238F
+		.WORD byte_2923B7
+		.WORD byte_2923D6
+		.WORD byte_29241D
+		.WORD byte_29244E
+		.WORD byte_29247A
+		.WORD byte_292494
+		.WORD byte_2924B4
+		.WORD byte_2924DE
+		.WORD byte_29250E
+		.WORD byte_292531
+		.WORD byte_29253E
+		.WORD byte_292578
+		.WORD byte_2925A4
+		.WORD byte_2925EF
+		.WORD byte_29261E
+		.WORD byte_292667
+		.WORD byte_29268D
+		.WORD byte_2926AA
+		.WORD byte_292704
+		.WORD byte_292733
+		.WORD byte_29274D
+		.WORD byte_29277A
+		.WORD byte_2927B0
+		.WORD byte_2927DC
+		.WORD byte_29283E
+		.WORD byte_29285D
+		.WORD byte_292876
+		.WORD byte_2928BC
+		.WORD byte_2928F3
+		.WORD byte_2928F3
+		.WORD byte_2928FC
+		.WORD byte_2928FC
+		.WORD byte_292948
+		.WORD byte_292980
+		.WORD byte_2929B0
+		.WORD byte_2929B0
+		.WORD byte_292A01
+		.WORD byte_292A01
+		.WORD byte_292A01
+		.WORD byte_292A01
+		.WORD byte_292A01
+		.WORD byte_292A01
+		.WORD byte_292A28
+		.WORD byte_292A41
+		.WORD byte_292A66
+		.WORD byte_292ABA
+		.WORD byte_292AE1
+		.WORD byte_292B20
+		.WORD byte_292B20
+		.WORD byte_292B20
+		.WORD byte_292B20
+		.WORD byte_292B20
+		.WORD byte_292B20
+		.WORD byte_292B20
+scene16_msg_lib:
+		.WORD byte_3A1E7
+		.WORD byte_3A212
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A226
+		.WORD byte_3A26A
+		.WORD byte_3A2B9
+		.WORD byte_3A2E8
+		.WORD byte_3A308
+		.WORD byte_3A32C
+		.WORD byte_3A32C
+		.WORD byte_3A32C
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A346
+		.WORD byte_3A37A
+		.WORD byte_3A3B5
+		.WORD byte_3A3DB
+		.WORD byte_3A3E0
+		.WORD byte_3A40C
+		.WORD byte_3A448
+		.WORD byte_3A448
+		.WORD byte_3A484
+		.WORD byte_3A4AC
+		.WORD byte_3A4E7
+		.WORD byte_3A52A
+		.WORD byte_3A565
+		.WORD byte_3A57C
+		.WORD byte_3A586
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+scene17_msg_lib:
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A59F
+		.WORD byte_3A5D3
+		.WORD byte_3A608
+		.WORD byte_3A659
+		.WORD byte_3A688
+		.WORD byte_3A69B
+		.WORD byte_3A6CD
+		.WORD byte_3A6FB
+		.WORD byte_3A734
+		.WORD byte_3A751
+		.WORD byte_3A762
+		.WORD byte_3A76D
+		.WORD byte_3A781
+		.WORD byte_3A78C
+		.WORD byte_3A79D
+		.WORD byte_3A7B4
+		.WORD byte_3A7B8
+		.WORD byte_3A7FA
+		.WORD byte_3A802
+		.WORD byte_3A815
+		.WORD byte_3A834
+		.WORD byte_3A84F
+		.WORD byte_3A863
+		.WORD byte_3A883
+		.WORD byte_3A88E
+		.WORD byte_3A89F
+		.WORD byte_3A8AC
+		.WORD byte_3A8BA
+		.WORD byte_3A8D3
+		.WORD byte_3A8E2
+		.WORD byte_3A8EF
+		.WORD byte_3A8FF
+		.WORD byte_3A904
+		.WORD byte_3A8FF
+		.WORD byte_3A913
+		.WORD byte_3A92E
+		.WORD byte_3A943
+		.WORD byte_3A976
+		.WORD byte_3A97D
+		.WORD byte_3A9CD
+		.WORD byte_3A9D5
+		.WORD byte_3AA0E
+		.WORD byte_3AA19
+		.WORD byte_3AA2E
+		.WORD byte_3AA6B
+		.WORD byte_3AA7F
+		.WORD byte_3AA85
+		.WORD byte_3AA89
+		.WORD byte_3AA9E
+		.WORD byte_3AADE
+		.WORD byte_3AB11
+		.WORD byte_3AB25
+		.WORD byte_3AB75
+		.WORD byte_3ABC7
+		.WORD byte_3ABCC
+		.WORD byte_3ABDF
+		.WORD byte_3ABE8
+		.WORD byte_3ABFF
+		.WORD byte_3AC50
+		.WORD byte_3AC88
+		.WORD byte_3ACAF
+		.WORD byte_3ACDB
+		.WORD byte_3AD3F
+		.WORD byte_3AD3F
+		.WORD byte_3AD8D
+		.WORD byte_3AD3F
+		.WORD byte_3ADBF
+		.WORD byte_3ADF4
+		.WORD byte_3AE24
+		.WORD byte_3AE33
+		.WORD byte_3AE83
+		.WORD byte_3AEAC
+		.WORD byte_3AEFB
+		.WORD byte_3AF53
+		.WORD byte_3AF55
+		.WORD byte_3AFB4
+		.WORD byte_3AFB6
+		.WORD byte_3B000
+		.WORD byte_3B03C
+		.WORD byte_3B062
+		.WORD byte_3B0B2
+		.WORD byte_3B0DD
+		.WORD byte_3B0FC
+		.WORD byte_3B160
+		.WORD byte_3B17C
+		.WORD byte_3B1B4
+		.WORD byte_3B1FD
+		.WORD byte_3B249
+		.WORD byte_3B26A
+		.WORD byte_3B2AF
+		.WORD byte_3B2EE
+		.WORD byte_3B32D
+		.WORD byte_3B355
+		.WORD byte_3B38E
+		.WORD byte_3B3B7
+		.WORD byte_3B3F2
+		.WORD byte_3B458
+		.WORD byte_3B484
+		.WORD byte_3B4B0
+		.WORD byte_3B4EC
+		.WORD byte_3B503
+		.WORD byte_3B539
+		.WORD byte_3B56A
+		.WORD byte_3B5DB
+		.WORD byte_3B613
+		.WORD byte_3B670
+		.WORD byte_3B6A2
+		.WORD byte_3B714
+		.WORD byte_3B728
+		.WORD byte_3B7A4
+		.WORD byte_3B7E4
+		.WORD byte_3B868
+		.WORD byte_3B878
+		.WORD byte_3B8E1
+		.WORD byte_3B911
+		.WORD byte_3B969
+		.WORD byte_3B9DF
+		.WORD byte_3BA1E
+		.WORD byte_3BA47
+		.WORD byte_3BA6E
+		.WORD byte_3BACC
+		.WORD byte_3BB05
+byte_2921E7:
+		Vrrm.
+
+		While holding the laser, I
+		drove toward the Olympic
+		Stadium.
+byte_29221F:
+		I finally found Tetsuo!
+byte_292231:
+		A bizarre mass was where
+		Tetsuo's right arm had been,
+		and it was attacking the Army
+		lackeys.
+byte_292275:
+		Whoosh!
+
+		The shock wave hit Kaneda.
+
+		Kaneda: Agh!
+byte_29229A:
+		I set up the laser beam again.
+
+		Kaneda: Tetsuo, I'll put you
+		out of your misery!
+byte_2922D5:
+		Kaneda: Alright!
+		Full throttle!
+
+		I readied the bike to ram
+		into Tetsuo.
+byte_292306:
+		But my tire got caught in the
+		rubble, and I tumbled off the
+		bike.
+byte_29233C:
+		Kaneda: I've had enough of
+		Tetsuo's bossy attitude.
+byte_292363:
+		Tetsuo: Kaneda! You're the
+		one who'll be put out of his
+		misery!
+byte_29238F:
+		In desperation, I threw the
+		laser at Tetsuo.
+
+		I missed.
+byte_2923B7:
+		I threw the mirror near
+		Tetsuo's right arm.
+byte_2923D6:
+		The weird thing on his arm
+		started growing. It already
+		grew around the Army lackeys
+		from before.
+byte_29241D:
+		Wasn't his right arm severed
+		before?
+
+		...Could it have missed?
+byte_29244E:
+		That's right... I have the
+		mirror that Kei gave me
+		earlier.
+byte_29247A:
+		I tossed the mirror next to
+		Tetsuo.
+byte_292494:
+		I went to retrieve the mirror
+		I threw.
+byte_2924B4:
+		The laser reflected off the
+		mirror and missed Tetsuo's
+		body!
+byte_2924DE:
+		Tetsuo, who had changed into a
+		monster, moaned painfully.
+byte_29250E:
+		Kshoom!
+
+		The laser reflected off the
+		mirror.
+byte_292531:
+		The laser missed Tetsuo!
+byte_29253E:
+		Without thinking, I fired at
+		Tetsuo, who had changed into
+		a monster.
+byte_292578:
+		Tetsuo seemed to be turning
+		into a giant blob of flesh.
+byte_2925A4:
+		But Tetsuo sprang up after the
+		recoil. After levitating in
+		the air, he went into a dive.
+byte_2925EF:
+		I went full speed in reverse
+		up the pile of rubble.
+byte_29261E:
+		With me so close, Tetsuo
+		attacked me with his body.
+		The floor of the stadium was
+		destroyed.
+byte_292667:
+		I hit the brakes partway
+		through the rubble.
+byte_29268D:
+		Tetsuo collapsed and started
+		to twitch.
+byte_2926AA:
+		Tetsuo began transforming into
+		a monster. He began to grow
+		rapidly, unable to control the
+		flow of his energy.
+byte_292704:
+		A sudden swell of muscle burst
+		through his skin.
+byte_292733:
+		Tetsuo: Kaneda...
+		h...help me...
+		please...
+byte_29274D:
+		Tetsuo began to absorb the
+		light.
+
+		I ran over towards him.
+byte_29277A:
+		I punched through the blob
+		surrounding those Army jerks
+		with my laser.
+byte_2927B0:
+		The laser hit his right arm,
+		and the area began to swell
+		oddly.
+byte_2927DC:
+		Kaneda: Stop it!
+
+		Tentacles sprung forth from
+		the blob of flesh. They
+		stopped me in my tracks,
+		dragging me in.
+byte_29283E:
+		Inside the blob, I heard
+		Tetsuo's moaning.
+byte_29285D:
+		Tetsuo: Can't...
+		control...
+		body...
+byte_292876:
+		The fluid that had spread on
+		the floor seethed, then began
+		to emit a strange light.
+byte_2928BC:
+		The sample case cracked, and
+		a fluid boiled forth from
+		inside.
+byte_2928F3:
+		Masaru: It's Akira...
+byte_2928FC:
+		The light from Akira sprang
+		forth. It spread more and
+		more, until it covered the
+		three of them.
+byte_292948:
+		Kiyoko: But... if we three do
+		it, then he...
+
+		Masaru: That's right...
+		with three of us...
+byte_292980:
+		I tried to make another
+		decision, and aimed the laser
+		at his body.
+byte_2929B0:
+		But a kid grabbed my hand.
+
+		Takashi: No, don't do it!
+		If you go now, there will be
+		no way to return.
+byte_292A01:
+		I shook off the kid's hand,
+		and ran toward the light.
+byte_292A28:
+		I ran with the kid away from
+		Tetsuo.
+byte_292A41:
+		I knocked the kid down,
+		and ran toward the light.
+byte_292A66:
+		Just as the light was about to
+		consume me, I saw the kid from
+		before run up.
+
+		Takashi: He has nothing to do
+		with this!
+byte_292ABA:
+		The kid jumped into the light.
+
+		Masaru: Takashi!
+
+		Kiyoko: Takashi... No...
+byte_292AE1:
+		Masaru: ...If we go inside, we
+		won't be able to get back out
+		with our power.
+byte_292B20:
+		In front of my eyes was the
+		shrunken ball of light.
+byte_3A1E7:
+		In front of my eyes was the
+		shrunken ball of light.
+byte_3A212:
+		I turned around and found Kei.
+byte_3A226:
+		Kiyoko: Yes... it is what we
+		have foreseen...
+		In order to bring Tetsuo...
+
+		Kaneda: Bring him... where?
+byte_3A26A:
+		Takashi: Tetsuo was beyond
+		help... Our help... and even
+		Akira's...
+
+		Masaru: He was just too much
+		for us as we are now.
+byte_3A2B9:
+		Kiyoko: But someday even we...
+
+		Masaru: It's still just
+		beginning...
+byte_3A2E8:
+		Kiyoko: Your friend...
+
+		Kaneda: You mean Kei?
+byte_3A308:
+		Kei: Kaneda!
+
+		I could hear Kei's voice...
+
+		Kaneda: Kei...
+byte_3A32C:
+		Masaru: Kiyoko, Takashi.
+
+		Takashi: Masaru, Kiyoko.
+
+		Kiyoko: Takashi, Masaru.
+byte_3A346:
+		The shrunken ball of light
+		appeared to fade as it flew
+		away...
+byte_3A37A:
+		When I came to, I was on top
+		of the pile of rubble in
+		the stadium.
+byte_3A3B5:
+		I grabbed the fading ball of
+		light without thinking.
+byte_3A3DB:
+		Kaneda: Tetsuo...
+byte_3A3E0:
+		Kei: Kaneda...
+
+		Kaneda: Thank you...
+		for calling my name.
+		I heard you...
+byte_3A40C:
+		Kei: Tetsuo...
+
+		Kaneda: He's gone...
+		along with those three...
+		and Akira...
+
+		Kei: Kaneda... earlier, you...
+byte_3A448:
+		The clouds were washed away,
+		and the sun shone.
+
+		We could only gaze at the
+		light...
+byte_3A484:
+		Then, we got on the bike and
+		headed for Neo-Tokyo.
+byte_3A4AC:
+		Even the broken buildings
+		of Neo-Tokyo felt a full
+		showering of sunlight.
+byte_3A4E7:
+		...Light sprung from the white
+		emptiness. Gradually, atoms
+		were born. The atoms...
+byte_3A52A:
+		Grew, and became gaseous
+		forms. Soon, space appeared...
+		and galaxies...
+byte_3A565:
+		Planets and stars were born...
+byte_3A57C:
+		Tetsuo: I am... Tetsuo...
+byte_3A586:
+		Kaneda: I wonder...
+		Ah! Of course!
+byte_3A59F:
+		Miyako: Cleanse your body!
+		Purify your soul,
+		and then return!
+byte_3A5D3:
+		Miyako: You say you want to
+		stop?
+
+		A Button: Yes!
+		B Button: No!
+byte_3A608:
+		Miyako: Lord Akira's awakening
+		is nigh! He has need of your
+		strength! Take heart and join
+		in!
+byte_3A659:
+		Miyako: Fool! That's not it!
+		Try inputting it again!
+byte_3A688:
+		Kaneda: My password is
+
+
+byte_3A69B:
+		Miyako: Oh, good, you've
+		returned! Enter your password!
+byte_3A6CD:
+		They were all in the Old Town,
+		staring at the expanding
+		bright light.
+byte_3A6FB:
+		Neo-Tokyo was moving more and
+		more towards the worst of
+		everything.
+byte_3A734:
+		But it was Kaneda that finally
+		awoke Akira.
+byte_3A751:
+		Kaneda: -cough-
+		Blech.
+byte_3A762:
+		Army: Shut up!
+byte_3A76D:
+		Army: Hey! No snooping!
+byte_3A781:
+		Kaneda: Stop it!
+byte_3A78C:
+		Kaneda: Uh, what do I do...
+byte_3A79D:
+		Kaneda met an untimely end...
+byte_3A7B4:
+		Kaneda: ...
+byte_3A7B8:
+		This is Game Over!
+		Please try again!
+
+		A Button: Let's try!
+		B Button: I'm done!
+byte_3A7FA:
+		Kaneda: Whoa!
+byte_3A802:
+		Kaneda: Tetsuo...
+		What did you do?!
+byte_3A815:
+		Tetsuo: Ugh...
+		-huff- -huff-
+		Oh... Oh.
+byte_3A834:
+		Army: Hey, that's as far as
+		you go!
+byte_3A84F:
+		The Army goon fired his gun!
+byte_3A863:
+		Kaneda was caught by the Army
+		and sent to juvie.
+byte_3A883:
+		Kaneda: Hey now...
+byte_3A88E:
+		Terrorist: What'd you say?!
+byte_3A89F:
+		Kaneda: Ah! What's this?
+byte_3A8AC:
+		Kaneda: Ugh!
+		-glub-
+byte_3A8BA:
+		Kei: Idiot!
+
+		Kaneda: Uugh!
+
+		Kei: Ah!
+byte_3A8D3:
+		Tetsuo: Ahahahaha...
+byte_3A8E2:
+		Tetsuo: Agh... Ah!
+byte_3A8EF:
+		The door was locked.
+byte_3A8FF:
+		Kai: Kaneda...
+byte_3A904:
+		Kaneda: Dumbasses!
+byte_3A913:
+		I looked into the river
+		below...
+byte_3A92E:
+		I readied the aim on my laser.
+byte_3A943:
+		The laser hit Tetsuo's chest!
+
+		Tetsuo: Ugh...
+
+		Kaneda: I did it, Yamagata!
+		Just for you!
+byte_3A976:
+		Tetsuo died...
+byte_3A97D:
+		Through Kaneda's work, Akira's
+		resurrection was prevented.
+		Neo-Tokyo became peaceful once
+		more...
+byte_3A9CD:
+		Tetsuo: Kaneda?!
+byte_3A9D5:
+		Tetsuo's hair is standing on
+		end.
+
+		Tetsuo's planning to unleash
+		a shock wave!
+byte_3AA0E:
+		The laser missed!
+byte_3AA19:
+		Kaneda: Huh? It won't work!
+byte_3AA2E:
+		Kaneda: Nau... maku... sa...
+		Um... man... da?
+		I can never remember that
+		mantra.
+byte_3AA6B:
+		Kaneda: M-mommy, save me!
+byte_3AA7F:
+		Thud!
+byte_3AA85:
+		Man: ...
+byte_3AA89:
+		There isn't time for that!
+byte_3AA9E:
+		Terrorist: We're gonna sneak
+		into the lab?! Are you crazy?
+		And with THIS kid...?
+byte_3AADE:
+		Terrorist: This is a pass
+		that'll get us into the lab
+		for a week...
+byte_3AB11:
+		Terrorist: New experimental
+		subject?
+byte_3AB25:
+		Ryu: The boy who caused all of
+		that commotion in the Old Town
+		was taken into custody in the
+		lab...
+byte_3AB75:
+		Ryu: It looks like it's a
+		training center, but it's
+		really a human experimentation
+		lab...
+byte_3ABC7:
+		Kaneda: Tetsuo!
+byte_3ABCC:
+		The laser hit Tetsuo's right
+		arm!
+byte_3ABDF:
+		AKIRA!!!
+byte_3ABE8:
+		Bang!
+
+		The Terrorist fired his gun.
+byte_3ABFF:
+		Ryu: That's right. Last week,
+		our forces liberated the
+		experiment known as "No. 26"
+		during the night.
+byte_3AC50:
+		Ryu: It's an urgent order.
+		We're already making
+		arrangements.
+byte_3AC88:
+		Kei: From Mr. Nezu, right?
+		What's the objective?
+byte_3ACAF:
+		Ryu: Some detailed data on the
+		newest experiment.
+byte_3ACDB:
+		Owner: Tetsuo headed toward
+		Sector  [num].
+
+		Kai: Hurry up, we're wasting
+		time!
+
+		Kaneda: Sorry. Hey, can I have
+		those pills?
+byte_3AD3F:
+		We somehow managed to avoid
+		the Army guys. And, with her
+		leading the way, we came to
+		this place.
+byte_3AD8D:
+		Miyako: Your password is
+		 [password]
+
+		It's best you don't forget it!
+byte_3ADBF:
+		That night, we were chasing
+		the Clowns along the highways
+		of the Old Town.
+byte_3ADF4:
+		The next day, we were brought
+		in for an Army investigation.
+byte_3AE24:
+		Student: ....Huh?
+byte_3AE33:
+		That night, we were on the
+		rooftop garden in front of
+		the fountain. A few couples
+		were hanging out.
+byte_3AE83:
+		...What was that wrinkly kid
+		from that night, anyway?
+byte_3AEAC:
+		There's no way Tetsuo has any
+		connection to that kid, right?
+		Where the hell did those Army
+		guys take Tetsuo?
+byte_3AEFB:
+		Kai: So, what're you thinkin'
+		about?
+
+		Groupie: This is, like,
+		boring!
+
+		Yamagata: Shut up!
+
+		Groupie: Hmph... idiot!
+byte_3AF53:
+		  $BF
+byte_3AF55:
+		The light absorbed the rubble
+		and spread out.
+
+		Tetsuo: This light...
+		what is it?
+
+		The area in front of me became
+		a bright white.
+byte_3AFB4:
+		 Terrorist
+byte_3AFB6:
+		After hitting the sample case,
+		the laser's energy resonated
+		with Tetsuo's power,
+		resurrecting Akira.
+byte_3B000:
+		Akira's light expanded more
+		and more, enveloping both
+		Akira and Kaneda.
+
+		Tetsuo: Agh, A... Akira...
+byte_3B03C:
+		Neo-Tokyo gradually returned
+		to silence.
+byte_3B062:
+		Tetsuo: Aaaah!
+
+		Only Tetsuo's face remained
+		human, as the rest of him
+		turned into a fleshy blob.
+byte_3B0B2:
+		Tetsuo: Grah!
+
+		The fleshy blob let out a
+		scream.
+byte_3B0DD:
+		Tetsuo: Kaneda, run!
+
+		Kaneda: Shit...
+
+		Tetsuo: Gah!
+byte_3B0FC:
+		Kiyoko, Masaru, and Takashi
+		were standing firm at the
+		edge of the stadium as the
+		blob began to fill it. In
+		front of them, there was a
+		sample case.
+byte_3B160:
+		The light filled the entire
+		stadium.
+byte_3B17C:
+		As the light was reaching
+		the buildings, the destruction
+		of the Old Town began.
+byte_3B1B4:
+		The light grew into a massive
+		sphere. Most of the Old Town
+		had been enveloped by the
+		light...
+byte_3B1FD:
+		With the laser's energy, the
+		expanding Tetsuo extended to
+		envelop the 3 of them and even
+		Akira's sample case.
+byte_3B249:
+		Kiyoko: Tetsuo... Ah!
+
+		Takashi: It's no use!
+
+		Masaru: Agh! Akira...
+byte_3B26A:
+		After destroying the stadium,
+		Tetsuo expanded and consumed
+		the entirety of the Old Town.
+byte_3B2AF:
+		With the collapse of the Old
+		Town, the ocean itself poured
+		into Neo-Tokyo.
+byte_3B2EE:
+		Neo-Tokyo returned to silence.
+		Having destroyed the Old Town,
+		Tetsuo was crying.
+byte_3B32D:
+		The kids teleported me out of
+		the stadium.
+byte_3B355:
+		When we made it back to the
+		crumbling stadium, we met Kei
+		and Kai.
+byte_3B38E:
+		...What would happen if the
+		two powers collided?
+byte_3B3B7:
+		Akira and Tetsuo regenerated
+		inside the rubble.
+
+		Tetsuo: So we finally meet...
+		Akira...
+byte_3B3F2:
+		With the destruction of
+		Neo-Tokyo, the new story of
+		Akira had begun...
+
+		The Great Tokyo Empire...
+
+		All hail Emperor Akira...
+byte_3B458:
+		Kaneda struggled, but he was
+		finally consumed by the light.
+byte_3B484:
+		...Kaneda was enveloped by
+		Akira and his very being
+		annihilated.
+byte_3B4B0:
+		Neo-Tokyo returned to silence.
+		Everything was completely
+		destroyed.
+byte_3B4EC:
+		Kai and Kei were at the
+		highway's tollbooth.
+byte_3B503:
+		Kai: This is bad... We've
+		gotta get outta here!
+
+		Kei: Kaneda... Kanedaaa!
+byte_3B539:
+		The light gave off a groan,
+		and began to erode the Old
+		Town.
+byte_3B56A:
+		The buildings were enveloped,
+		and rubble, billboards, and
+		Army tanks alike were absorbed
+		and vaporized.
+
+		The Old Town had been mostly
+		destroyed.
+byte_3B5DB:
+		I drifted about in the light.
+
+		...My life began to flash
+		before my eyes.
+byte_3B613:
+		Kaneda: You see, you're just
+		not digging in enough...
+
+		Yamagata: You take the corner
+		like you wanna die.
+		Here, watch...
+byte_3B670:
+		Kai: Whaddaya mean?
+
+		Yamagata: It's cornering.
+
+		Kaneda: Hahaha...
+		Hey, Tetsuo...
+byte_3B6A2:
+		Oh look, he's back.
+
+		    Is he a transfer student?
+
+		He was just cast aside...
+
+		 He looks like he's been
+		 through a lot.
+byte_3B714:
+		Kaneda: Are you...
+		dreaming, Tetsuo?
+byte_3B728:
+		Tetsuo: -sniffle-
+
+		Kaneda: The new guys around
+		here are always getting beat
+		up. It happened again today.
+		I got hit, too... but that
+		other guy was really weak.
+byte_3B7A4:
+		Tetsuo: I'm... Tetsuo...
+		Tetsuo Shima...
+
+		Kaneda: Heh, you know what?
+		I'm new here too.
+		My name is...
+byte_3B7E4:
+		Suddenly, I saw those kids.
+		They were playing in a room
+		that looked like a laboratory.
+		Across from the kids was
+		another one I hadn't seen
+		before.
+		He was smiling.
+byte_3B868:
+		Kaneda: So this is Akira...?
+byte_3B878:
+		An enormous ball of light
+		appeared over Neo-Tokyo. Soon,
+		the top of the ball grew dark.
+		It resembled a black hole.
+byte_3B8E1:
+		The area around me began to
+		distort and warp.
+
+		Kaneda: Agh... Kei!
+byte_3B911:
+		The ball of light was
+		completely surrounded by the
+		darkness. The cloud advancing
+		toward the center expanded.
+byte_3B969:
+		The sphere of darkness covered
+		Neo-Tokyo's buildings and
+		destroyed them. A giant crater
+		appeared in the area that had
+		once been Neo-Tokyo's center.
+byte_3B9DF:
+		The sphere of darkness grew
+		over Neo-Tokyo, and expanded
+		up to the ocean.
+byte_3BA1E:
+		Neo-Tokyo's buildings were
+		flooded by the sea water.
+byte_3BA47:
+		The buildings fell one by one
+		as the water reached them.
+byte_3BA6E:
+		Gradually, morning came,
+		and in the middle of the
+		giant cloud, a light shone
+		through. The water began
+		to recede.
+byte_3BACC:
+		Neo-Tokyo, which we
+		could see from the stadium,
+		grew still...
+byte_3BB05:
+		Kai: Kaneda! You're alive!
+		Jeez, I thought you'd be a
+		goner... Huh, where's Tetsuo?
+		Did he die?
